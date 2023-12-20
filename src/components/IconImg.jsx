@@ -31,9 +31,9 @@ export const InteligenciaSvg = () => {
         height="100"
         rx="50"
         fill="#7AF57A"
-        fill-opacity="0.08"
+        fillOpacity="0.08"
       />
-      <g clip-path="url(#clip0_81_27608)">
+      <g clipPath="url(#clip0_81_27608)">
         <path
           d="M47.2344 26.1875C45.2188 26.5531 43.6438 27.1156 41.9282 28.0812C37.7094 30.4531 34.8219 34.4656 33.8188 39.3594C33.5844 40.5031 33.5376 43.4937 33.7251 44.7969C34.3157 48.7437 36.1907 52.175 39.2563 54.8656C39.8282 55.3719 40.5219 56.0187 40.7844 56.3187C41.7219 57.3406 42.4532 58.7656 42.7251 60.0781L42.8469 60.6406H50.0001H57.1532L57.2751 60.0781C57.5469 58.7656 58.2782 57.3406 59.2157 56.3187C59.4782 56.0187 60.1719 55.3719 60.7438 54.8656C63.8094 52.1656 65.6563 48.8 66.2751 44.7969C66.5001 43.2781 66.4157 40.4187 66.0969 38.975C64.6438 32.4969 59.7782 27.6781 53.2813 26.2719C51.8469 25.9719 48.7157 25.925 47.2344 26.1875ZM51.6407 31.9531C53.4219 32.4969 54.9032 34.0531 55.3907 35.8906C55.5688 36.5937 55.5688 37.8969 55.3907 38.6C55.1938 39.3312 54.8376 40.0625 54.4063 40.6156L54.0407 41.0844L54.5282 41.3844C56.4407 42.5469 57.9594 44.5344 58.5313 46.625C58.7563 47.4406 58.9438 49.3906 58.8594 49.9437C58.7751 50.45 58.5219 50.8438 58.1376 51.0781C57.8376 51.2656 57.6594 51.2656 50.0001 51.2656C42.3407 51.2656 42.1626 51.2656 41.8626 51.0781C41.4782 50.8438 41.2251 50.45 41.1407 49.9437C41.0563 49.3906 41.2438 47.4406 41.4688 46.625C42.0407 44.5344 43.5594 42.5469 45.4719 41.3844L45.9594 41.0844L45.5938 40.6156C44.2719 38.9375 44.0844 36.425 45.1438 34.55C45.7626 33.4531 46.8969 32.4875 48.0969 32.0375C49.2407 31.6062 50.3844 31.5781 51.6407 31.9531Z"
           fill="url(#paint0_linear_81_27608)"
@@ -88,8 +88,8 @@ export const InteligenciaSvg = () => {
           y2="59.2231"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_81_27608"
@@ -99,8 +99,8 @@ export const InteligenciaSvg = () => {
           y2="40.2068"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_81_27608"
@@ -110,8 +110,8 @@ export const InteligenciaSvg = () => {
           y2="54.2044"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_81_27608"
@@ -121,8 +121,8 @@ export const InteligenciaSvg = () => {
           y2="34.2688"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_81_27608"
@@ -132,8 +132,8 @@ export const InteligenciaSvg = () => {
           y2="34.2688"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_81_27608"
@@ -143,8 +143,8 @@ export const InteligenciaSvg = () => {
           y2="46.4037"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_81_27608"
@@ -154,8 +154,8 @@ export const InteligenciaSvg = () => {
           y2="46.4037"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_81_27608"
@@ -165,8 +165,8 @@ export const InteligenciaSvg = () => {
           y2="57.7063"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_81_27608"
@@ -176,8 +176,8 @@ export const InteligenciaSvg = () => {
           y2="57.7063"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_81_27608"
@@ -187,8 +187,8 @@ export const InteligenciaSvg = () => {
           y2="74.2262"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_81_27608"
@@ -198,8 +198,8 @@ export const InteligenciaSvg = () => {
           y2="77.997"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <clipPath id="clip0_81_27608">
           <rect
@@ -228,9 +228,9 @@ export const ProactividadSvg = () => {
         height="100"
         rx="50"
         fill="#7AF57A"
-        fill-opacity="0.08"
+        fillOpacity="0.08"
       />
-      <g clip-path="url(#clip0_81_27626)">
+      <g clipPath="url(#clip0_81_27626)">
         <path
           d="M30.5777 26.1781C28.6465 26.7406 27.1465 28.2781 26.6496 30.1906C26.4527 30.9218 26.4527 32.3281 26.6496 33.0593C27.1465 34.9906 28.759 36.6031 30.6809 37.1C31.3371 37.2687 32.7996 37.2968 33.4371 37.1468C33.6715 37.0906 34.1027 36.9406 34.4027 36.8093L34.9465 36.5656L37.0934 38.7031L39.2309 40.8406L40.2902 39.7906L41.3496 38.7406L39.2027 36.5937L37.0652 34.4468L37.309 33.9031C37.4402 33.6031 37.5902 33.1718 37.6465 32.9375C37.7965 32.3 37.7684 30.8375 37.5996 30.1906C37.0934 28.2406 35.509 26.6562 33.559 26.15C32.7902 25.9531 31.309 25.9625 30.5777 26.1781Z"
           fill="url(#paint0_linear_81_27626)"
@@ -269,8 +269,8 @@ export const ProactividadSvg = () => {
           y2="41.2411"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_81_27626"
@@ -280,8 +280,8 @@ export const ProactividadSvg = () => {
           y2="41.1691"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_81_27626"
@@ -291,8 +291,8 @@ export const ProactividadSvg = () => {
           y2="62.641"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_81_27626"
@@ -302,8 +302,8 @@ export const ProactividadSvg = () => {
           y2="53.1539"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_81_27626"
@@ -313,8 +313,8 @@ export const ProactividadSvg = () => {
           y2="62.3798"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_81_27626"
@@ -324,8 +324,8 @@ export const ProactividadSvg = () => {
           y2="74.425"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_81_27626"
@@ -335,8 +335,8 @@ export const ProactividadSvg = () => {
           y2="74.415"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <clipPath id="clip0_81_27626">
           <rect
@@ -364,7 +364,7 @@ export const InnovacionSvg = () => {
         height="100"
         rx="50"
         fill="#7AF57A"
-        fill-opacity="0.08"
+        fillOpacity="0.08"
       />
       <path
         d="M45.5719 29.6281C45.5156 29.825 45.3469 30.5281 45.1875 31.2031C45.0281 31.8687 44.8594 32.5531 44.8031 32.7219C44.7 33.05 44.5875 33.0969 43.3594 33.3594C42.9469 33.4531 42.2531 33.6406 41.8125 33.7906C41.3813 33.9406 40.9594 34.0437 40.875 34.0156C40.8 33.9875 40.1906 33.3875 39.5156 32.6844C38.85 31.9719 38.2781 31.3812 38.2406 31.3625C38.175 31.3344 35.7563 32.6844 35.5969 32.8344C35.5594 32.8719 35.7656 33.7062 36.0563 34.6906L36.5906 36.4812L35.1656 37.8969C34.2563 38.8156 33.6844 39.3125 33.5625 39.3125C33.45 39.3125 32.6625 39.0969 31.8094 38.8437C30.9563 38.5812 30.1969 38.375 30.1313 38.375C30.0656 38.375 29.6719 38.975 29.2594 39.6969L28.5 41.0187L29.55 42.0219C31.1531 43.5312 31.2188 43.5969 31.2188 43.7469C31.2188 43.8219 31.0969 44.2625 30.9469 44.7219C30.7969 45.1719 30.6094 45.8844 30.5156 46.2969C30.2906 47.3844 30.2156 47.5437 29.8688 47.6375C29.7094 47.6844 28.8938 47.8812 28.0594 48.0781L26.5312 48.4437V50V51.5656L28.275 51.9781C29.2406 52.2031 30.075 52.4281 30.15 52.4844C30.2156 52.5312 30.3563 52.9812 30.4688 53.4688C30.5719 53.9562 30.7875 54.7719 30.9469 55.2781C31.0969 55.7844 31.2 56.2812 31.1719 56.375C31.1438 56.4781 30.9844 56.6656 30.8156 56.8062C30.6469 56.9469 30.0656 57.4906 29.5031 58.0156L28.5 58.9812L29.2594 60.3031C29.6719 61.025 30.0656 61.625 30.1406 61.625C30.2344 61.625 31.2188 61.3344 33.4875 60.6312C33.6 60.6031 34.0781 61.0156 35.1094 62.0375L36.5813 63.5L36.0563 65.2719C35.7656 66.2469 35.5312 67.0625 35.5312 67.0906C35.5312 67.1187 36.1313 67.4844 36.8625 67.9062L38.2031 68.675L39.525 67.2875L40.8469 65.9L41.8219 66.2C42.3563 66.3687 43.2 66.5844 43.6875 66.6969C44.1844 66.8 44.625 66.95 44.6906 67.025C44.7844 67.1562 45.5625 70.25 45.5625 70.5031C45.5625 70.5969 45.8344 70.625 46.5938 70.625H47.625V66.5562V62.4969L46.4344 62.4406C40.8563 62.1875 36.1313 58.0812 34.9125 52.4375C34.7063 51.4812 34.6313 49.3719 34.7719 48.3969C35.3625 44.225 37.8938 40.6812 41.5969 38.8062C43.0781 38.0656 44.8313 37.6062 46.6688 37.475L47.625 37.4094V33.35V29.2812H46.6406H45.6656L45.5719 29.6281Z"
@@ -435,8 +435,8 @@ export const InnovacionSvg = () => {
           y2="45.6984"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_81_27640"
@@ -446,8 +446,8 @@ export const InnovacionSvg = () => {
           y2="34.7438"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_81_27640"
@@ -457,8 +457,8 @@ export const InnovacionSvg = () => {
           y2="34.8633"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_81_27640"
@@ -468,8 +468,8 @@ export const InnovacionSvg = () => {
           y2="41.7982"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_81_27640"
@@ -479,8 +479,8 @@ export const InnovacionSvg = () => {
           y2="62.07"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_81_27640"
@@ -490,8 +490,8 @@ export const InnovacionSvg = () => {
           y2="57.6193"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_81_27640"
@@ -501,8 +501,8 @@ export const InnovacionSvg = () => {
           y2="41.7832"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_81_27640"
@@ -512,8 +512,8 @@ export const InnovacionSvg = () => {
           y2="48.0285"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_81_27640"
@@ -523,8 +523,8 @@ export const InnovacionSvg = () => {
           y2="48.8882"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_81_27640"
@@ -534,8 +534,8 @@ export const InnovacionSvg = () => {
           y2="55.1611"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_81_27640"
@@ -545,8 +545,8 @@ export const InnovacionSvg = () => {
           y2="56.012"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_81_27640"
@@ -556,8 +556,8 @@ export const InnovacionSvg = () => {
           y2="63.17"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint12_linear_81_27640"
@@ -567,8 +567,8 @@ export const InnovacionSvg = () => {
           y2="63.3056"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint13_linear_81_27640"
@@ -578,8 +578,8 @@ export const InnovacionSvg = () => {
           y2="70.2164"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint14_linear_81_27640"
@@ -589,8 +589,8 @@ export const InnovacionSvg = () => {
           y2="70.3946"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
       </defs>
     </svg>
@@ -618,8 +618,8 @@ export const RightTick = () => {
           y2="-0.616319"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
       </defs>
     </svg>
@@ -634,8 +634,8 @@ export const PáginasIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect width="68" height="68" rx="34" fill="#7AF57A" fill-opacity="0.08" />
-      <g clip-path="url(#clip0_297_22450)">
+      <rect width="68" height="68" rx="34" fill="#7AF57A" fillOpacity="0.08" />
+      <g clipPath="url(#clip0_297_22450)">
         <path
           d="M31.7288 15.0795C28.8093 15.4986 26.3378 16.7271 24.2854 18.8012C22.4137 20.6801 21.1563 23.0793 20.6649 25.6736C20.5059 26.5264 20.4481 28.81 20.5637 29.7133C20.8817 32.2715 21.8718 34.49 23.6639 36.6508C24.7479 37.9588 25.3116 39.0355 25.6296 40.4158L25.7813 41.0879H27.4723H29.1634V36.2461C29.1634 31.5271 29.1634 31.3971 29.3151 31.0285C29.5391 30.4576 30.7315 28.0006 31.7866 25.9338C32.6827 24.1777 32.726 24.1055 33.0223 23.9609C33.4053 23.7803 33.5932 23.7803 33.9835 23.9682C34.2942 24.1199 34.3014 24.1271 35.7684 27.0611C36.5778 28.6727 37.3727 30.3059 37.5389 30.6889L37.8352 31.3826V36.2389V41.0879H39.5262H41.2173L41.3401 40.5314C41.4846 39.8738 41.7159 39.2451 42.07 38.5369C42.4024 37.8865 42.6192 37.5686 43.3997 36.5713C44.9534 34.6057 45.7411 33.0303 46.2108 30.9707C46.5866 29.3303 46.6083 26.9889 46.2614 25.3557C45.1196 19.9574 40.7837 15.8816 35.3565 15.1084C34.5544 14.9928 32.4442 14.9783 31.7288 15.0795Z"
           fill="url(#paint0_linear_297_22450)"
@@ -690,8 +690,8 @@ export const PáginasIcon = () => {
           y2="41.6683"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_297_22450"
@@ -701,8 +701,8 @@ export const PáginasIcon = () => {
           y2="24.628"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_297_22450"
@@ -712,8 +712,8 @@ export const PáginasIcon = () => {
           y2="24.6258"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_297_22450"
@@ -723,8 +723,8 @@ export const PáginasIcon = () => {
           y2="30.7107"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_297_22450"
@@ -734,8 +734,8 @@ export const PáginasIcon = () => {
           y2="32.2454"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_297_22450"
@@ -745,8 +745,8 @@ export const PáginasIcon = () => {
           y2="32.2454"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_297_22450"
@@ -756,8 +756,8 @@ export const PáginasIcon = () => {
           y2="36.4731"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_297_22450"
@@ -767,8 +767,8 @@ export const PáginasIcon = () => {
           y2="37.6336"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_297_22450"
@@ -778,8 +778,8 @@ export const PáginasIcon = () => {
           y2="37.6358"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_297_22450"
@@ -789,8 +789,8 @@ export const PáginasIcon = () => {
           y2="53.6852"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_297_22450"
@@ -800,8 +800,8 @@ export const PáginasIcon = () => {
           y2="55.384"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <clipPath id="clip0_297_22450">
           <rect
@@ -824,7 +824,7 @@ export const ClientesIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect width="68" height="68" rx="34" fill="#7AF57A" fill-opacity="0.08" />
+      <rect width="68" height="68" rx="34" fill="#7AF57A" fillOpacity="0.08" />
       <path
         d="M33.7832 16.4119C33.4363 16.5492 33.4219 16.5998 33.4219 18.0017C33.4219 18.7316 33.4508 19.3965 33.4941 19.4687C33.6098 19.6855 33.9711 19.7722 34.2529 19.6566C34.5998 19.5049 34.6721 19.1869 34.6432 17.8283C34.6143 16.8455 34.5998 16.7082 34.4697 16.5853C34.318 16.4264 33.9639 16.3396 33.7832 16.4119Z"
         fill="url(#paint0_linear_297_22466)"
@@ -882,8 +882,8 @@ export const ClientesIcon = () => {
           y2="17.1965"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_297_22466"
@@ -893,8 +893,8 @@ export const ClientesIcon = () => {
           y2="22.7524"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_297_22466"
@@ -904,8 +904,8 @@ export const ClientesIcon = () => {
           y2="22.8227"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_297_22466"
@@ -915,8 +915,8 @@ export const ClientesIcon = () => {
           y2="31.8369"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_297_22466"
@@ -926,8 +926,8 @@ export const ClientesIcon = () => {
           y2="31.8227"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint5_linear_297_22466"
@@ -937,8 +937,8 @@ export const ClientesIcon = () => {
           y2="31.8745"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint6_linear_297_22466"
@@ -948,8 +948,8 @@ export const ClientesIcon = () => {
           y2="41.1411"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint7_linear_297_22466"
@@ -959,8 +959,8 @@ export const ClientesIcon = () => {
           y2="41.9795"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint8_linear_297_22466"
@@ -970,8 +970,8 @@ export const ClientesIcon = () => {
           y2="41.9802"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint9_linear_297_22466"
@@ -981,8 +981,8 @@ export const ClientesIcon = () => {
           y2="58.4146"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint10_linear_297_22466"
@@ -992,8 +992,8 @@ export const ClientesIcon = () => {
           y2="53.0442"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint11_linear_297_22466"
@@ -1003,8 +1003,8 @@ export const ClientesIcon = () => {
           y2="53.0421"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
       </defs>
     </svg>
@@ -1019,8 +1019,8 @@ export const DivisasIcon = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect width="68" height="68" rx="34" fill="#7AF57A" fill-opacity="0.08" />
-      <g clip-path="url(#clip0_297_22483)">
+      <rect width="68" height="68" rx="34" fill="#7AF57A" fillOpacity="0.08" />
+      <g clipPath="url(#clip0_297_22483)">
         <path
           d="M23.3407 16.116C19.6624 16.8025 16.7357 19.7871 16.107 23.4871C15.9335 24.5133 15.9986 26.2549 16.2515 27.216C16.6706 28.8564 17.4511 30.1861 18.7157 31.4291C19.8575 32.5564 21.0933 33.2791 22.582 33.691L23.1239 33.8428L23.2685 33.6766C23.348 33.5898 23.6515 33.2285 23.9405 32.8889C25.6821 30.8221 28.421 29.225 31.2683 28.6107L31.8247 28.4879L31.8753 28.1555C31.9693 27.4617 32.215 26.4355 32.4245 25.8357C32.6775 25.1203 33.2484 23.9352 33.5808 23.4582C33.8048 23.133 33.8048 23.1258 33.7181 22.6922C33.6675 22.4465 33.5013 21.9479 33.3495 21.5793C32.2655 18.9416 30.0253 16.9904 27.2431 16.2533C26.6144 16.0871 26.347 16.0582 25.2196 16.0365C24.273 16.0148 23.7599 16.0365 23.3407 16.116ZM22.6109 19.91C22.7915 20.0689 23.1673 20.7121 23.9261 22.1502C24.5042 23.2559 24.9884 24.1664 25.0029 24.1664C25.0173 24.1664 25.487 23.2775 26.0507 22.1936C27.2431 19.9027 27.4093 19.6859 28.0019 19.6859C28.4427 19.6859 28.7679 19.816 29.0136 20.0834C29.1581 20.2352 29.1943 20.3508 29.1943 20.6471C29.1943 21.0012 29.1364 21.1168 28.132 22.7789C27.5394 23.74 27.0624 24.5494 27.0624 24.5639C27.0624 24.5855 27.3226 24.6 27.6333 24.6C28.0814 24.6 28.2404 24.6289 28.3704 24.7301C28.5872 24.9107 28.5872 25.2721 28.3704 25.4889C28.2331 25.6334 28.132 25.6479 27.2937 25.6695L26.3759 25.6912L26.2458 25.9152C26.1808 26.0309 26.123 26.2404 26.123 26.3777V26.6234H27.1636C28.0669 26.6234 28.2259 26.6379 28.3704 26.7535C28.5872 26.9342 28.5872 27.2955 28.3704 27.5123C28.2259 27.6568 28.132 27.6713 27.1708 27.693L26.123 27.7146V28.618C26.123 29.5863 26.0724 29.767 25.7255 30.0922C25.5593 30.2512 25.4654 30.2729 25.0029 30.2729C24.5404 30.2729 24.4464 30.2512 24.2802 30.0922C23.9333 29.767 23.8827 29.5863 23.8827 28.618V27.7146L22.8349 27.693C21.8737 27.6713 21.7798 27.6568 21.6353 27.5123C21.4185 27.2955 21.4185 26.9342 21.6353 26.7535C21.7798 26.6379 21.9388 26.6234 22.8421 26.6234H23.8827V26.3777C23.8827 26.2404 23.8249 26.0309 23.7599 25.9152L23.6298 25.6912L22.7048 25.6695C21.7798 25.6479 21.7726 25.6479 21.5919 25.4383C21.4618 25.2865 21.4257 25.1781 21.4618 25.0408C21.5413 24.7012 21.7437 24.6 22.3724 24.6C22.6831 24.6 22.9433 24.5855 22.9433 24.5639C22.9433 24.5494 22.488 23.7762 21.9243 22.8584C21.3679 21.9406 20.8765 21.0951 20.8331 20.9795C20.6741 20.5098 20.9126 20.0039 21.3896 19.7871C21.5124 19.7365 21.7726 19.6932 21.9821 19.6859C22.3001 19.6859 22.4013 19.7221 22.6109 19.91Z"
           fill="url(#paint0_linear_297_22483)"
@@ -1051,8 +1051,8 @@ export const DivisasIcon = () => {
           y2="34.235"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint1_linear_297_22483"
@@ -1062,8 +1062,8 @@ export const DivisasIcon = () => {
           y2="39.0054"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint2_linear_297_22483"
@@ -1073,8 +1073,8 @@ export const DivisasIcon = () => {
           y2="53.6121"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_297_22483"
@@ -1084,8 +1084,8 @@ export const DivisasIcon = () => {
           y2="38.6228"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <linearGradient
           id="paint4_linear_297_22483"
@@ -1095,8 +1095,8 @@ export const DivisasIcon = () => {
           y2="44.7923"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#51C8EF" />
-          <stop offset="1" stop-color="#7AF57A" />
+          <stop stopColor="#51C8EF" />
+          <stop offset="1" stopColor="#7AF57A" />
         </linearGradient>
         <clipPath id="clip0_297_22483">
           <rect

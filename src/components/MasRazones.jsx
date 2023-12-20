@@ -494,18 +494,18 @@ const MasRazones = () => {
               Preguntas más frecuentes
             </h2>
             <div
-              class="accordion d-flex flex-column justify-content-center align-items-center"
+              className="accordion d-flex flex-column justify-content-center align-items-center"
               id="accordionExample"
             >
               <div
-                class="accordion-item w-100"
+                className="accordion-item w-100"
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <h2 class="accordion-header">
+                <h2 className="accordion-header">
                   <button
-                    class="accordion-button"
+                    className="accordion-button"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
@@ -520,10 +520,10 @@ const MasRazones = () => {
                 </h2>
                 <div
                   id="collapseOne"
-                  class="accordion-collapse collapse show"
+                  className="accordion-collapse collapse show"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p className=" text-white mb-0 ff_inter fw-medium lh_160 opacity_08 fs_6sm mw_880">
                       En Exclusive Games, ofrecemos experiencias únicas y
                       personalizadas, respaldadas por más de 15 años de
@@ -534,14 +534,14 @@ const MasRazones = () => {
                 </div>
               </div>
               <div
-                class="accordion-item w-100"
+                className="accordion-item w-100"
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <h2 class="accordion-header">
+                <h2 className="accordion-header">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
@@ -556,10 +556,10 @@ const MasRazones = () => {
                 </h2>
                 <div
                   id="collapseTwo"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p className=" text-white mb-0 ff_inter fw-medium lh_160 opacity_08 fs_6sm mw_880">
                       En Exclusive Games, ofrecemos experiencias únicas y
                       personalizadas, respaldadas por más de 15 años de
@@ -570,14 +570,14 @@ const MasRazones = () => {
                 </div>
               </div>
               <div
-                class="accordion-item w-100"
+                className="accordion-item w-100"
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <h2 class="accordion-header">
+                <h2 className="accordion-header">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
@@ -592,10 +592,10 @@ const MasRazones = () => {
                 </h2>
                 <div
                   id="collapseThree"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p className=" text-white mb-0 ff_inter fw-medium lh_160 opacity_08 fs_6sm mw_880">
                       En Exclusive Games, ofrecemos experiencias únicas y
                       personalizadas, respaldadas por más de 15 años de
@@ -606,14 +606,14 @@ const MasRazones = () => {
                 </div>
               </div>
               <div
-                class="accordion-item w-100"
+                className="accordion-item w-100"
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <h2 class="accordion-header">
+                <h2 className="accordion-header">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseFour"
@@ -628,10 +628,10 @@ const MasRazones = () => {
                 </h2>
                 <div
                   id="collapseFour"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p className=" text-white mb-0 ff_inter fw-medium lh_160 opacity_08 fs_6sm mw_880">
                       En Exclusive Games, ofrecemos experiencias únicas y
                       personalizadas, respaldadas por más de 15 años de
@@ -642,14 +642,14 @@ const MasRazones = () => {
                 </div>
               </div>
               <div
-                class="accordion-item w-100"
+                className="accordion-item w-100"
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <h2 class="accordion-header">
+                <h2 className="accordion-header">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseFive"
@@ -663,10 +663,10 @@ const MasRazones = () => {
                 </h2>
                 <div
                   id="collapseFive"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p className=" text-white mb-0 ff_inter fw-medium lh_160 opacity_08 fs_6sm mw_880">
                       En Exclusive Games, ofrecemos experiencias únicas y
                       personalizadas, respaldadas por más de 15 años de
@@ -677,14 +677,14 @@ const MasRazones = () => {
                 </div>
               </div>
               <div
-                class="accordion-item w-100"
+                className="accordion-item w-100"
                 data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="1500"
               >
-                <h2 class="accordion-header">
+                <h2 className="accordion-header">
                   <button
-                    class="accordion-button collapsed"
+                    className="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseSix"
@@ -698,10 +698,10 @@ const MasRazones = () => {
                 </h2>
                 <div
                   id="collapseSix"
-                  class="accordion-collapse collapse"
+                  className="accordion-collapse collapse"
                   data-bs-parent="#accordionExample"
                 >
-                  <div class="accordion-body">
+                  <div className="accordion-body">
                     <p className=" text-white mb-0 ff_inter fw-medium lh_160 opacity_08 fs_6sm mw_880">
                       En Exclusive Games, ofrecemos experiencias únicas y
                       personalizadas, respaldadas por más de 15 años de

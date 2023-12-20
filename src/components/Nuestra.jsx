@@ -2,9 +2,9 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import PokerImg from "../assets/images/png/PokerImg.png";
+import PokerImg from "../assets/images/webp/PokerImg.webp";
 import { TextArrow } from "./IconImg";
-import Aviator from "../assets/images/png/AviatorImg.png";
+import Aviator from "../assets/images/webp/AviatorImg.webp";
 
 const Nuestra = () => {
   return (

@@ -192,7 +192,7 @@ body {
 
 /* ------------------------header--------------------------- */
 .bg_header {
-  background-image: url("./assets/images/png/BgHeader.png");
+  background-image: url("./assets/images/webp/BgHeader.webp");
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
