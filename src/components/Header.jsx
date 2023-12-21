@@ -100,7 +100,7 @@ const Header = () => {
         </nav>
         <Container
           id="Hogar"
-          className=" py_60 py-lg-0 flex-grow-1 d-flex flex-column justify-content-center align-items-center"
+          className="py_header py-xl-0 flex-grow-1 d-flex flex-column justify-content-center align-items-center"
         >
           <h1
             className=" text-uppercase fs_2xxl text-white fw-normal ff_Anton lh_120 pb-3 text-center mw_505 mb-0"

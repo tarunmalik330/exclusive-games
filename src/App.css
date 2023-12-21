@@ -270,9 +270,9 @@ body {
   left: -6px;
 }
 
-.py_60 {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.py_header {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 /* --------------------------Nuestra-Mision---------------------- */
@@ -717,6 +717,7 @@ body {
 @media (min-width:576px) and (max-width:768px) {
   :root {
     --fs-8xl: 40px !important;
+    --fs-2xxl: 62px !important;
   }
 }
 
@@ -827,10 +828,6 @@ body {
     max-width: 904px;
   }
 
-  .min_vh_100 {
-    min-height: 100vh;
-  }
-
   .py_slots {
     padding-top: 150px;
   }
@@ -853,6 +850,11 @@ body {
   .py_razenos {
     padding-top: 50px;
     padding-bottom: 150px;
+  }
+
+  .py_header {
+    padding-top: 130px;
+    padding-bottom: 110px;
   }
 
   .mw_520 {
@@ -897,5 +899,11 @@ body {
 
   .mb_accordion {
     margin-bottom: 150px;
+  }
+}
+
+@media (min-width:1200px) {
+  .min_vh_100 {
+    min-height: 100vh;
   }
 }

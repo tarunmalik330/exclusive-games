@@ -54,7 +54,7 @@ const Nuestra = () => {
                 </div>
               </div>
             </Col>
-            <Col lg="6" className=" col-12 d-flex flex-column align-items-end">
+            <Col lg="6" className=" col-12 d-flex flex-column">
               <div>
                 <div className=" pt-5 pt-lg-0">
                   <h3
