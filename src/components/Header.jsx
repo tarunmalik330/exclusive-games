@@ -74,7 +74,7 @@ const Header = () => {
                   </a>
                 </li>
               </ul>
-              <div className=" d-none d-lg-block position-relative">
+              <div className="btn_white d-none d-lg-block position-relative">
                 <img
                   src={BtnAfter}
                   alt="BtnAfter"

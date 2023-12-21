@@ -20,7 +20,7 @@ const Nuestra = () => {
           <Row>
             <Col
               lg="6"
-              className=" col-12 d-flex flex-lg-column flex-column-reverse"
+              className=" col-12 d-flex align-items-center flex-lg-column flex-column-reverse"
             >
               <div
                 className=" pt-5 pt-lg-0 overflow-hidden"
@@ -34,7 +34,7 @@ const Nuestra = () => {
               </div>
               <div>
                 <h3
-                  className=" ff_Anton fs_8xl lh_120 text-white fw-normal mb-0 pt-5 mt-2 pb-3"
+                  className=" ff_Anton fs_8xl lh_120 text-white fw-normal mb-0 pt-4 pt-sm-5 mt-md-2 mt-0 pb-3"
                   data-aos="zoom-out-right"
                 >
                   Nuestra Visión

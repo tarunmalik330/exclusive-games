@@ -37,7 +37,7 @@ const MasRazones = () => {
               <img
                 src={SevenImg}
                 alt="SevenImg"
-                className=" w-100 br_16 mw_558 h-100 img_hover object_cover"
+                className=" w-100 br_16 pe-3 img_hover object_cover"
               />
             </Col>
             <Col lg="6" className=" pt-5 pt-lg-0">
@@ -743,7 +743,7 @@ const MasRazones = () => {
               className=" position-absolute end-0 top-0"
             />
             <h2
-              className=" ff_Anton text-white fs_2lg lh_130 fw-normal text-center position-relative z-1"
+              className=" ff_Anton text-white fs_2lg lh_130 fw-normal text-center position-relative z-1 px-3 px-sm-0"
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500"

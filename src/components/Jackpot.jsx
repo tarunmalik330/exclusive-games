@@ -24,11 +24,11 @@ const Jackpot = () => {
                 <img
                   src={JackpotImg}
                   alt="JackpotImg"
-                  className=" w-100 mw_558 img_hover"
+                  className=" w-100 mw_600 img_hover"
                 />
               </div>
             </Col>
-            <Col lg="6" className=" col-12 pt-sm-0 pt-5">
+            <Col lg="6" className=" col-12 pt-lg-0 pt-4">
               <h2
                 className=" ff_Anton fs_8xl fw-normal lh_120 text-white mb-0 pb-3"
                 data-aos="fade-down"
@@ -112,8 +112,8 @@ const Jackpot = () => {
             </Col>
           </Row>
         </Container>
-        <Container className=" position-relative z-1">
-          <div className=" Platforma_box w-100 d-flex justify-content-center px-4 px-lg-0 position-relative relative_img">
+        <Container className=" d-flex justify-content-center">
+          <div className="Platforma_box w-100 d-flex justify-content-center px-4 px-lg-0 relative_img">
             <img
               src={PlatformaRight}
               alt="PlatformaRight"

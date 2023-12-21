@@ -108,11 +108,10 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 50px;
-  background: linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%) !important;
+  background: #00141b !important;
   cursor: pointer !important;
   -webkit-animation: mover 3000ms infinite ease-in-out !important;
   animation: mover 3000ms infinite ease-in-out !important;
-  filter: drop-shadow(0px 5px 8px white);
   border: 1px solid white;
 }
 
@@ -214,7 +213,7 @@ body {
   transition: 0.3s linear
 }
 
-.acceso_btn:hover {
+.btn_white:hover .acceso_btn {
   background-color: white !important;
   color: #00141B !important;
   border: 1px solid white !important;
@@ -376,6 +375,7 @@ body {
 }
 
 .Platforma_box {
+  max-width: 1043px;
   padding-top: 96px;
   padding-bottom: 96px;
   border-radius: 16px;
@@ -384,7 +384,7 @@ body {
 }
 
 .relative_img {
-  mix-blend-mode: plus-lighter;
+  mix-blend-mode: plus-lighter !important;
 }
 
 .Img_shadow {
@@ -558,6 +558,10 @@ body {
   padding-bottom: 103px;
 }
 
+.mw_600 {
+  max-width: 600px;
+}
+
 .mw_419 {
   max-width: 419px;
 }
@@ -707,10 +711,20 @@ body {
 
 @media (max-width:576px) {
   :root {
+    --fs-6sm: 14px !important;
     --fs-md: 16px !important;
     --fs-2lg: 25px !important;
-    --fs-8xl: 36px !important;
-    --fs-2xxl: 50px !important;
+    --fs-8xl: 28px !important;
+    --fs-2xxl: 45px !important;
+  }
+
+  .Platforma_box {
+    padding-top: 68px !important;
+    padding-bottom: 68px !important;
+  }
+
+  .py_header {
+    padding-bottom: 78px !important;
   }
 }
 
@@ -718,6 +732,51 @@ body {
   :root {
     --fs-8xl: 40px !important;
     --fs-2xxl: 62px !important;
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  :root {
+    --fs-8xl: 39px !important;
+  }
+
+  .green_coin {
+    left: 16%;
+  }
+
+  .diamond_card {
+    left: 7%;
+  }
+
+  .heart_card {
+    top: 8%;
+    right: 15%;
+  }
+
+  .dice_img {
+    right: 18%;
+  }
+
+  .Bg_Artibutos {
+    padding-bottom: 185px !important;
+  }
+
+  .py_jackpot {
+    padding-top: 26px !important;
+    padding-bottom: 84px !important;
+  }
+
+  .bg_elegirnos {
+    padding-top: 247px !important;
+    padding-bottom: 224px !important;
+  }
+
+  .mb_accordion {
+    margin-bottom: 80px !important;
+  }
+
+  .mt_footer {
+    margin-top: 97px !important;
   }
 }
 
@@ -803,8 +862,8 @@ body {
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
-    padding-top: 300px;
-    padding-bottom: 300px;
+    padding-top: 270px;
+    padding-bottom: 270px;
     background-color: unset;
   }
 

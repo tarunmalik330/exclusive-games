@@ -25,7 +25,7 @@ const Footer = () => {
                 En Exclusive Games somos un equipo apasionado de personas
                 dedicadas al desarrollo de multiplataformas para juegos de azar
               </p>
-              <div className=" d-flex pt-4 pb-5 gap-3">
+              <div className=" d-flex pt-4 pb-lg-5 pb-0 gap-3">
                 <div className="icon_circle d-flex justify-content-center align-items-center">
                   <InstagramIcon />
                 </div>
