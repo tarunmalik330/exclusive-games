@@ -260,8 +260,8 @@ body {
 }
 
 .acceso_after {
-  bottom: -68%;
-  left: -3%;
+  bottom: -19px;
+  left: -6px;
 }
 
 .empezar_btn {
@@ -281,6 +281,10 @@ body {
   opacity: 0.5;
   background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
   filter: blur(179.9499969482422px);
+}
+
+.mission_Ellips {
+  left: -21%;
 }
 
 .mission_RightEllips {
@@ -556,10 +560,6 @@ body {
 .py_solobox {
   padding-top: 104px;
   padding-bottom: 103px;
-}
-
-.mw_600 {
-  max-width: 600px;
 }
 
 .mw_419 {

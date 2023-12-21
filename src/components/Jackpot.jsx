@@ -24,7 +24,7 @@ const Jackpot = () => {
                 <img
                   src={JackpotImg}
                   alt="JackpotImg"
-                  className=" w-100 mw_600 img_hover"
+                  className=" w-100 mw_558 img_hover"
                 />
               </div>
             </Col>

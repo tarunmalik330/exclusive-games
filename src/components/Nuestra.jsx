@@ -13,14 +13,14 @@ const Nuestra = () => {
         id="Misión"
         className="mt_1 pt-5 mt-0 mt-lg-4 pb-5 mb-5 position-relative"
       >
-        <div className=" position-absolute mission_leftEllips"></div>
+        <div className=" position-absolute mission_leftEllips mission_Ellips"></div>
         <div className=" position-absolute mission_leftEllips mission_RightEllips"></div>
         <div className="mission_centerEllips position-absolute start-50 top-50"></div>
         <Container className=" position-relative z-1">
           <Row>
             <Col
               lg="6"
-              className=" col-12 d-flex align-items-center flex-lg-column flex-column-reverse"
+              className=" col-12 d-flex align-items-lg-center align-items-start flex-lg-column flex-column-reverse"
             >
               <div
                 className=" pt-5 pt-lg-0 overflow-hidden"

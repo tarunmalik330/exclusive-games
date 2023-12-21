@@ -33,11 +33,11 @@ const MasRazones = () => {
         {/* -----------------------------Más razones --------------------- */}
         <Container className="py_razenos position-relative z-1">
           <Row>
-            <Col lg="6">
+            <Col lg="6" className="d-flex justify-content-lg-end">
               <img
                 src={SevenImg}
                 alt="SevenImg"
-                className=" w-100 br_16 pe-3 img_hover object_cover"
+                className=" w-100 br_16 me-3 img_hover object_cover h-100"
               />
             </Col>
             <Col lg="6" className=" pt-5 pt-lg-0">
