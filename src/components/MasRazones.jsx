@@ -105,7 +105,10 @@ const MasRazones = () => {
           </p>
           <div className="silver_box py_silverbox">
             <Row className="align-items-center justify-content-center">
-              <Col lg="6" className="px-4">
+              <Col
+                lg="6"
+                className="px-4 d-flex justify-content-center justify-content-lg-start"
+              >
                 <img
                   src={SilverImg}
                   alt="SilverImg"
@@ -362,7 +365,7 @@ const MasRazones = () => {
                   </button>
                 </div>
               </Col>
-              <Col lg="6" className="pt-5 pt-lg-0">
+              <Col lg="6" className="col-11 pt-5 pt-lg-0">
                 <img
                   src={PlatinumImg}
                   alt="PlatinumImg"
