@@ -42,7 +42,7 @@ const MasRazones = () => {
             </Col>
             <Col lg="6" className=" pt-5 pt-lg-0">
               <h2
-                className=" text-white ff_Anton fw-normal lh_120 fs_8xl pb-5 mb-2"
+                className=" text-white ff_Anton fw-normal lh_120 fs_8xl pb-sm-5 pb-4 mb-sm-2 mb-0"
                 data-aos="fade-down"
               >
                 Más razones para elegirnos
