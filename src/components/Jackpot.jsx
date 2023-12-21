@@ -14,7 +14,7 @@ import BtnAfter from "../assets/images/png/NavabtnAfter.png";
 const Jackpot = () => {
   return (
     <>
-      <div className="bg_Potenciando min-vh-100 position-relative">
+      <div className="bg_Potenciando position-relative">
         <div className="mission_leftEllips jackpot_ellips position-absolute"></div>
         <div className=" mission_leftEllips position-absolute bottom-0 end-0"></div>
         <Container className="py_jackpot">
