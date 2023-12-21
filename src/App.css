@@ -558,8 +558,8 @@ body {
 }
 
 .py_solobox {
-  padding-top: 104px;
-  padding-bottom: 103px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .mw_419 {
@@ -698,7 +698,7 @@ body {
 }
 
 .mb_accordion {
-  margin-bottom: 80px;
+  margin-bottom: 45px;
 }
 
 :root {
@@ -914,6 +914,11 @@ body {
   .py_header {
     padding-top: 130px;
     padding-bottom: 110px;
+  }
+
+  .py_solobox {
+    padding-top: 104px;
+    padding-bottom: 103px;
   }
 
   .mw_520 {

@@ -501,7 +501,7 @@ const MasRazones = () => {
         <div className=" mb_accordion">
           <Container>
             <h2
-              className=" text-white ff_Anton fs_8xl fw-normal lh_120 text-uppercase text-center pb-5 mb-4"
+              className=" text-white ff_Anton fs_8xl fw-normal lh_120 text-uppercase text-center pb-sm-5 pb-4 mb-sm-4"
               data-aos="fade-down"
               data-aos-easing="linear"
               data-aos-duration="1500"
