@@ -1,0 +1,63 @@
+[debug] [2023-12-21T09:48:57.900Z] ----------------------------------------------------------------------
+[debug] [2023-12-21T09:48:57.902Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-12-21T09:48:57.902Z] CLI Version:   13.0.2
+[debug] [2023-12-21T09:48:57.903Z] Platform:      win32
+[debug] [2023-12-21T09:48:57.903Z] Node Version:  v18.16.1
+[debug] [2023-12-21T09:48:57.904Z] Time:          Thu Dec 21 2023 15:18:57 GMT+0530 (India Standard Time)
+[debug] [2023-12-21T09:48:57.904Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-21T09:48:57.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-21T09:48:57.984Z] > authorizing via signed-in user (maliktarun2005@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\Desktop\exclusive-games
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-12-21T09:49:08.535Z] Using project from CLI flag: exclusive-games01
+[debug] [2023-12-21T09:49:08.539Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/exclusive-games01 [none]
+[debug] [2023-12-21T09:49:09.451Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/exclusive-games01 200
+[debug] [2023-12-21T09:49:09.451Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/exclusive-games01 {"projectId":"exclusive-games01","projectNumber":"695699117694","displayName":"exclusive-games01","name":"projects/exclusive-games01","resources":{"hostingSite":"exclusive-games01"},"state":"ACTIVE","etag":"1_9fbf37eb-61fa-4987-bac0-3398ce4348d2"}
+[info] i  Using project exclusive-games01 (exclusive-games01) 
+[info] 
+=== Hosting Setup
+[debug] [2023-12-21T09:49:09.465Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/exclusive-games01 [none]
+[debug] [2023-12-21T09:49:10.230Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/exclusive-games01 200
+[debug] [2023-12-21T09:49:10.231Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/exclusive-games01 {"projectId":"exclusive-games01","projectNumber":"695699117694","displayName":"exclusive-games01","name":"projects/exclusive-games01","resources":{"hostingSite":"exclusive-games01"},"state":"ACTIVE","etag":"1_9fbf37eb-61fa-4987-bac0-3398ce4348d2"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote build/404.html 
+[debug] [2023-12-21T09:49:18.973Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-12-21T09:49:19.702Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-12-21T09:49:19.702Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.7.1","browserURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.7.1/firebase.tgz"},"live":{"version":"10.7","browserURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.7/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.7.1/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.7.1/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.7.1/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.7.1/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.7.1/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.7.1/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2023-12-21T09:50:10.228Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:258:49)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[error] 
+[error] Error: An unexpected error has occurred.

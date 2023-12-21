@@ -202,7 +202,7 @@ const MasRazones = () => {
         </Container>
         {/* -------------------------------Luxury--------------------------------- */}
         <Container className="my_64">
-          <div className="silver_box py_luxury">
+          <div className="silver_box py_luxury px-3 px-sm-0">
             <Row>
               <div className="bg_luxury d-flex align-items-center justify-content-center position-relative">
                 <div className="mw_419">
@@ -379,7 +379,7 @@ const MasRazones = () => {
         {/* ---------------------------Ellos eligieron------------------------ */}
         <Container className=" py_apostar">
           <h2
-            className=" text-white text-center ff_Anton fs_8xl fw-normal lh_120 mb-3 pb-5"
+            className=" text-white text-center ff_Anton fs_8xl fw-normal lh_120 mb-sm-3 mb-0 pb-sm-5 pb-4"
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="1500"
@@ -731,7 +731,7 @@ const MasRazones = () => {
         </div>
         {/* ------------------------propia plataforma--------------------------- */}
         <Container>
-          <div className="silver_box py_solobox position-relative relative_img">
+          <div className="silver_box overflow-hidden py_solobox position-relative relative_img">
             <img
               src={SoloImg1}
               alt="SoloImg1"
