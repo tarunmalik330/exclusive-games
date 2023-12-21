@@ -2,8 +2,8 @@ import React from "react";
 import { useState } from "react";
 import Container from "react-bootstrap/Container";
 import Logo from "../assets/images/png/PageLogo.png";
-import BtnAfter from "../assets/images/png/NavabtnAfter.png";
-import BtnAftetGradient from "../assets/images/png/ColorBtnAfter.png";
+import BtnAfter from "../assets/images/webp/NavabtnAfter.webp";
+import BtnAftetGradient from "../assets/images/webp/ColorBtnAfter.webp";
 
 const Header = () => {
   const [show, setshow] = useState(true);

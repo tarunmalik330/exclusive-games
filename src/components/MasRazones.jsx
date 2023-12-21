@@ -8,12 +8,12 @@ import { ClientesIcon } from "./IconImg";
 import { DivisasIcon } from "./IconImg";
 import SilverImg from "../assets/images/png/SilverImg.png";
 import { RightTick } from "./IconImg";
-import BtnAfter from "../assets/images/png/NavabtnAfter.png";
+import BtnAfter from "../assets/images/webp/NavabtnAfter.webp";
 import PlatinumImg from "../assets/images/png/PlatinumImg.png";
 import FreeSpins from "../assets/images/png/FreeSpins.png";
 import HappyHours from "../assets/images/png/HappyHours.png";
 import europeanImg from "../assets/images/png/europeanImg.png";
-import BtnAftetGradient from "../assets/images/png/ColorBtnAfter.png";
+import BtnAftetGradient from "../assets/images/webp/ColorBtnAfter.webp";
 import GreenCoin from "../assets/images/png/GreenCoin.png";
 import DiceImg from "../assets/images/png/DiceImg.png";
 import HeartCard from "../assets/images/png/HeartCard.png";
@@ -184,7 +184,7 @@ const MasRazones = () => {
                   </p>
                 </div>
                 <div
-                  className="position-relative d-inline"
+                  className="position-relative btn_white d-inline"
                   data-aos="zoom-in-up"
                 >
                   <img
@@ -352,7 +352,7 @@ const MasRazones = () => {
                   </p>
                 </div>
                 <div
-                  className="position-relative d-inline"
+                  className="position-relative btn_white d-inline"
                   data-aos="fade-right"
                 >
                   <img
@@ -402,7 +402,7 @@ const MasRazones = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -433,7 +433,7 @@ const MasRazones = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -464,7 +464,7 @@ const MasRazones = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"

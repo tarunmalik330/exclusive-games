@@ -13,8 +13,8 @@ import SlotsImg3 from "../assets/images/webp/SlotsImg3.webp";
 import SlotsImg4 from "../assets/images/webp/SlotsImg4.webp";
 import SlotsImg5 from "../assets/images/webp/SlotsImg5.webp";
 import SlotsImg6 from "../assets/images/webp/SlotsImg6.webp";
-import BtnAfter from "../assets/images/png/NavabtnAfter.png";
-import BtnAftetGradient from "../assets/images/png/ColorBtnAfter.png";
+import BtnAfter from "../assets/images/webp/NavabtnAfter.webp";
+import BtnAftetGradient from "../assets/images/webp/ColorBtnAfter.webp";
 
 const Artibutos = () => {
   return (
@@ -119,7 +119,7 @@ const Artibutos = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -148,7 +148,7 @@ const Artibutos = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -177,7 +177,7 @@ const Artibutos = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -206,7 +206,7 @@ const Artibutos = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -235,7 +235,7 @@ const Artibutos = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -264,7 +264,7 @@ const Artibutos = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"

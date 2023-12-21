@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import CasionImg from "../assets/images/png/Casionnight.png";
-import BtnAftetGradient from "../assets/images/png/ColorBtnAfter.png";
+import BtnAftetGradient from "../assets/images/webp/ColorBtnAfter.webp";
 
 const Elegirnos = () => {
   return (

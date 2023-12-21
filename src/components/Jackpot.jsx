@@ -2,14 +2,14 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import JackpotImg from "../assets/images/png/JackpotImg.png";
+import JackpotImg from "../assets/images/webp/JackpotImg.webp";
 import { RightTick } from "./IconImg";
-import PlatformaLeft from "../assets/images/png/PlatformaImgLeft.png";
-import PlatformaRight from "../assets/images/png/PlataformaRightImg.png";
-import Blackjack from "../assets/images/png/BlackJack.png";
-import Roulette from "../assets/images/png/EuropeanRoulette.png";
-import LiveBetting from "../assets/images/png/LiveBetting.png";
-import BtnAfter from "../assets/images/png/NavabtnAfter.png";
+import PlatformaLeft from "../assets/images/webp/PlatformaImgLeft.webp";
+import PlatformaRight from "../assets/images/webp/PlataformaRightImg.webp";
+import Blackjack from "../assets/images/webp/BlackJack.webp";
+import Roulette from "../assets/images/webp/EuropeanRoulette.webp";
+import LiveBetting from "../assets/images/webp/LiveBetting.webp";
+import BtnAfter from "../assets/images/webp/NavabtnAfter.webp";
 
 const Jackpot = () => {
   return (
@@ -148,7 +148,7 @@ const Jackpot = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -177,7 +177,7 @@ const Jackpot = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
@@ -206,7 +206,7 @@ const Jackpot = () => {
                   className=" rounded-2 w-100"
                 />
                 <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
-                  <div className="position-relative">
+                  <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
                       alt="BtnAfter"
