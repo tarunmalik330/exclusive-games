@@ -396,7 +396,7 @@ body {
 }
 
 .py_vivo {
-  padding-top: 70px;
+  padding-top: 85px;
   padding-bottom: 70px;
 }
 
@@ -631,7 +631,7 @@ body {
 
 .py_razenos {
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 80px;
 }
 
 .Footer_Ellips {
@@ -707,6 +707,8 @@ body {
 
 @media (max-width:576px) {
   :root {
+    --fs-md: 16px !important;
+    --fs-2lg: 25px !important;
     --fs-8xl: 36px !important;
     --fs-2xxl: 50px !important;
   }
@@ -845,6 +847,11 @@ body {
 
   .py_apostar {
     padding-top: 150px;
+    padding-bottom: 150px;
+  }
+
+  .py_razenos {
+    padding-top: 50px;
     padding-bottom: 150px;
   }
 

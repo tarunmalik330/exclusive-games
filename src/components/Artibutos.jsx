@@ -7,12 +7,12 @@ import { ProactividadSvg } from "./IconImg";
 import { InnovacionSvg } from "./IconImg";
 import DottedImg1 from "../assets/images/png/DotedImg.png";
 import DottedImg2 from "../assets/images/png/DottedImg1.png";
-import SlotsImg1 from "../assets/images/png/SlotsImg1.png";
-import SlotsImg2 from "../assets/images/png/SlotsImg2.png";
-import SlotsImg3 from "../assets/images/png/SlotsImg3.png";
-import SlotsImg4 from "../assets/images/png/SlotsImg4.png";
-import SlotsImg5 from "../assets/images/png/SlotsImg5.png";
-import SlotsImg6 from "../assets/images/png/SlotsImg6.png";
+import SlotsImg1 from "../assets/images/webp/SlotsImg1.webp";
+import SlotsImg2 from "../assets/images/webp/SlotsImg2.webp";
+import SlotsImg3 from "../assets/images/webp/SlotsImg3.webp";
+import SlotsImg4 from "../assets/images/webp/SlotsImg4.webp";
+import SlotsImg5 from "../assets/images/webp/SlotsImg5.webp";
+import SlotsImg6 from "../assets/images/webp/SlotsImg6.webp";
 import BtnAfter from "../assets/images/png/NavabtnAfter.png";
 import BtnAftetGradient from "../assets/images/png/ColorBtnAfter.png";
 
@@ -138,7 +138,7 @@ const Artibutos = () => {
             <Col
               lg="4"
               sm="6"
-              className="col-11 pt-4 pt-sm-0"
+              className="col-11 pt-sm-0 pt-4"
               data-aos="fade-down-right"
             >
               <div className=" position-relative image_overlay">
@@ -167,7 +167,7 @@ const Artibutos = () => {
             <Col
               lg="4"
               sm="6"
-              className="col-11 pt-4 pt-sm-0"
+              className="col-11 pt-lg-0 pt-4"
               data-aos="fade-down-right"
             >
               <div className=" position-relative image_overlay">

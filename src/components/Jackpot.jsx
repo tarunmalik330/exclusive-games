@@ -28,7 +28,7 @@ const Jackpot = () => {
                 />
               </div>
             </Col>
-            <Col lg="6" className=" col-12">
+            <Col lg="6" className=" col-12 pt-sm-0 pt-5">
               <h2
                 className=" ff_Anton fs_8xl fw-normal lh_120 text-white mb-0 pb-3"
                 data-aos="fade-down"
@@ -134,7 +134,7 @@ const Jackpot = () => {
         </Container>
         <Container className=" py_vivo position-relative z-1">
           <h2
-            className="pb-5 mb-4 text-white text-center ff_Anton fs_8xl fw-normal lh_120"
+            className="pb-5 mb-sm-4 mb-0 text-white text-center ff_Anton fs_8xl fw-normal lh_120"
             data-aos="zoom-in"
           >
             Juegos en vivo
