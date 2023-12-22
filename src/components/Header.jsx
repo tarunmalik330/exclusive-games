@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <>
       <div className="bg_header min_vh_100 d-flex flex-column">
-        <nav className="bg_nav py-3 position-relative z-3">
+        <nav className="bg_nav py-4 position-relative z-3">
           <Container>
             <div className=" d-flex align-items-center justify-content-between">
               <img
@@ -110,7 +110,7 @@ const Header = () => {
             Exclusive Games. Pasión por ganar
           </h1>
           <p
-            className=" mw_727 ff_inter fs_6sm fw-mediumb lh_160 opacity_08 text-white text-center mb-0 pb-5"
+            className=" mw_727 ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white text-center mb-0 pb-5"
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
           >
@@ -119,22 +119,17 @@ const Header = () => {
             nuestra vida consumimos todo tipo de juegos hasta que un día
             decidimos crear los propios.
           </p>
-          <div
-            className=" position-relative"
-            data-aos="fade-up"
-            data-aos-anchor-placement="top-bottom"
-          >
-            <img
-              src={BtnAftetGradient}
-              alt="BtnAftetGradient"
-              className=" position-absolute empezar_btn"
-            />
-            <a
-              className=" button ff_inter fs_6sm fw-bold lh_160 text_black"
-              href=""
-            >
-              Empezar
-            </a>
+          <div data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div className="gradient_btn position-relative">
+              <img
+                src={BtnAftetGradient}
+                alt="BtnAftetGradient"
+                className=" position-absolute empezar_btn"
+              />
+              <button className="button ff_inter fs_6sm fw-bold lh_160 text_black">
+                Empezar
+              </button>
+            </div>
           </div>
         </Container>
       </div>

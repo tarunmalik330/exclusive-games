@@ -41,7 +41,7 @@ const Artibutos = () => {
               />
               <div className="d-flex flex-column align-items-center justify-content-center">
                 <InteligenciaSvg />
-                <p className=" text_black ff_Anton fs_md text-center fw-normal lh_130 pt-3 pb-2">
+                <p className=" text_black ff_Anton fs_md text-center fw-normal lh_130 mb-0 pt-3 pb_10">
                   Inteligencia
                 </p>
                 <p className=" mb-0 ff_inter fs_6sm fw-medium lh_160 opacity_08 text-center mw_263">
@@ -63,7 +63,7 @@ const Artibutos = () => {
               />
               <div className=" d-flex flex-column justify-content-center align-items-center">
                 <ProactividadSvg />
-                <p className=" text_black ff_Anton fs_md fw-normal lh_130 pt-3 pb-2">
+                <p className=" text_black ff_Anton fs_md fw-normal lh_130 pt-3 mb-0 pb_10">
                   Proactividad
                 </p>
                 <p className=" mb-0 ff_inter fs_6sm fw-medium lh_160 opacity_08 text-center mw_263">
@@ -80,7 +80,7 @@ const Artibutos = () => {
             >
               <div className=" d-flex justify-content-center align-items-center flex-column">
                 <InnovacionSvg />
-                <p className=" text_black ff_Anton fs_md fw-normal lh_130 pt-3 pb-2">
+                <p className=" text_black ff_Anton fs_md fw-normal lh_130 pt-3 pb_10 mb-0">
                   Innovación
                 </p>
                 <p className=" mb-0 ff_inter fs_6sm fw-medium lh_160 opacity_08 text-center mw_263">
@@ -282,18 +282,15 @@ const Artibutos = () => {
             </Col>
           </Row>
           <div className="d-flex justify-content-center align-items-center pt-5">
-            <div className=" position-relative">
+            <div className="gradient_btn position-relative">
               <img
                 src={BtnAftetGradient}
                 alt="BtnAftetGradient"
                 className=" position-absolute empezar_btn"
               />
-              <a
-                className=" button ff_inter fs_6sm fw-bold lh_160 text_black"
-                href=""
-              >
+              <button className=" button ff_inter fs_6sm fw-bold lh_160 text_black">
                 Mostrar más
-              </a>
+              </button>
             </div>
           </div>
         </Container>

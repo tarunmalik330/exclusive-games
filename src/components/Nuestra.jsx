@@ -16,7 +16,7 @@ const Nuestra = () => {
         <div className=" position-absolute mission_leftEllips mission_Ellips"></div>
         <div className=" position-absolute mission_leftEllips mission_RightEllips"></div>
         <div className="mission_centerEllips position-absolute start-50 top-50"></div>
-        <Container className=" position-relative z-1">
+        <Container className="position-relative z-1">
           <Row>
             <Col
               lg="6"

@@ -12,6 +12,16 @@ body {
   background-color: #00141B !important;
 }
 
+.custom_container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.Mas_Razones_img_parent {
+  max-width: 558px;
+  min-height: 514px;
+}
+
 /* -----------------preloader------------------- */
 .body-bg {
   background: linear-gradient(307deg, rgba(81, 200, 239, 0.06) -13.72%, rgba(122, 245, 122, 0.06) 102.02%) !important;
@@ -171,7 +181,7 @@ body {
 }
 
 .opacity_08 {
-  opacity: 0.8;
+  opacity: 0.8 !important;
 }
 
 .text_black {
@@ -179,10 +189,19 @@ body {
 }
 
 .button {
-  padding: 13px 46px;
+  padding: 16px 46px;
   border-radius: 41px;
   background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
   transition: all 0.4s ease 0s;
+  border: transparent;
+}
+
+.gradient_btn {
+  transition: all 300ms linear;
+}
+
+.gradient_btn:hover {
+  transform: scale(1.05) !important;
 }
 
 .curser_pointer {
@@ -195,6 +214,7 @@ body {
   background-position: center;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .bg_nav {
@@ -207,7 +227,7 @@ body {
 }
 
 .acceso_btn {
-  padding: 13px 46px;
+  padding: 16px 46px;
   border: 1px solid white;
   border-radius: 41px;
   transition: 0.3s linear
@@ -240,7 +260,7 @@ body {
 }
 
 .nav_line:hover {
-  opacity: 1;
+  opacity: 1 !important;
 }
 
 .nav_bar {
@@ -260,13 +280,13 @@ body {
 }
 
 .acceso_after {
-  bottom: -19px;
-  left: -6px;
+  bottom: -21px;
+  left: -4px;
 }
 
 .empezar_btn {
-  bottom: -16px;
-  left: -6px;
+  bottom: -5px;
+  left: -3px;
 }
 
 .py_header {
@@ -284,7 +304,8 @@ body {
 }
 
 .mission_Ellips {
-  left: -21% !important;
+  left: -25% !important;
+  top: 14% !important;
 }
 
 .mission_RightEllips {
@@ -306,6 +327,10 @@ body {
 
 .br_16 {
   border-radius: 16px;
+}
+
+.pb_10 {
+  padding-bottom: 10px;
 }
 
 .mt_1 {
@@ -367,6 +392,11 @@ body {
   left: -15%;
 }
 
+.jackpot_img {
+  min-height: 150px;
+  object-fit: contain;
+}
+
 .bg_Potenciando {
   background-image: url("./assets/images/png/BgJackpot.png");
   background-size: 100% 100%;
@@ -401,7 +431,7 @@ body {
 
 .py_vivo {
   padding-top: 85px;
-  padding-bottom: 70px;
+  padding-bottom: 100px;
 }
 
 .py_jackpot {
@@ -451,11 +481,39 @@ body {
   left: -28%;
 }
 
+.silver_ellips::after {
+  content: '';
+  position: absolute;
+  width: 162px;
+  height: 162px;
+  background: linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%);
+  filter: blur(65.5px);
+  border-radius: 162px;
+  top: 8%;
+  left: 23%;
+}
+
+.silver_ellips1::after {
+  content: '';
+  position: absolute;
+  width: 162px;
+  height: 162px;
+  background: linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%);
+  filter: blur(65.5px);
+  border-radius: 162px;
+  top: 8%;
+  right: 23%;
+}
+
+.mt_60 {
+  margin-top: 60px;
+}
+
 .my_box {
   max-width: 374px !important;
   color: black;
-  margin-top: 24px;
-  margin-bottom: 24px;
+  /* margin-top: 24px;
+  margin-bottom: 24px; */
   transition: all .3s linear;
 }
 
@@ -513,8 +571,8 @@ body {
 }
 
 .comprar_after {
-  bottom: -24px;
-  left: -6px;
+  bottom: -28px;
+  left: -4px;
 }
 
 .my_64 {

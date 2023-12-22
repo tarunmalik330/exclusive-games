@@ -18,101 +18,107 @@ const Jackpot = () => {
         <div className="mission_leftEllips jackpot_ellips position-absolute"></div>
         <div className=" mission_leftEllips position-absolute bottom-0 end-0"></div>
         <Container className="py_jackpot">
-          <Row className=" align-items-center">
-            <Col lg="6" className=" col-12">
+          <Row className=" align-items-center justify-content-lg-center justify-content-start">
+            <Col lg="5" className=" col-12 d-flex align-items-start">
               <div className="overflow-hidden" data-aos="zoom-in-right">
                 <img
                   src={JackpotImg}
                   alt="JackpotImg"
-                  className=" w-100 mw_558 img_hover"
+                  className=" w-100 jackpot_img img_hover pe-lg-3"
                 />
               </div>
             </Col>
-            <Col lg="6" className=" col-12 pt-lg-0 pt-4">
-              <h2
-                className=" ff_Anton fs_8xl fw-normal lh_120 text-white mb-0 pb-3"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                Potenciando sus elecciones
-              </h2>
-              <p
-                className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                Con Exclusive Game lo mejor está de tu lado.
-              </p>
-              <div
-                className=" curser_pointer d-flex gap-2 pb-2 mb-1"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <RightTick />
-                <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
-                  Tecnología HTML5
+            <Col
+              lg="6"
+              className=" col-12 pt-lg-0 pt-4 d-flex flex-column justify-content-center align-items-start"
+            >
+              <div>
+                <h2
+                  className=" ff_Anton fs_8xl fw-normal lh_120 text-white mb-0 pb-3"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  Potenciando sus elecciones
+                </h2>
+                <p
+                  className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  Con Exclusive Game lo mejor está de tu lado.
+                </p>
+                <div
+                  className=" curser_pointer d-flex gap-2 pb-2 mb-1"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  <RightTick />
+                  <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
+                    Tecnología HTML5
+                  </p>
+                </div>
+                <div
+                  className=" curser_pointer d-flex gap-2 pb-2 mb-1"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  <RightTick />
+                  <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
+                    Versión PC y móvil
+                  </p>
+                </div>
+                <div
+                  className=" curser_pointer d-flex gap-2 pb-2 mb-1"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  <RightTick />
+                  <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
+                    Control de RTP (controlás qué porcentaje pagar)
+                  </p>
+                </div>
+                <div
+                  className=" curser_pointer d-flex gap-2 pb-2 mb-1"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  <RightTick />
+                  <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
+                    Bonos editables, happy hours, Jackpots, códigos
+                    promocionales.
+                  </p>
+                </div>
+                <div
+                  className=" curser_pointer d-flex gap-2 pb-4"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  <RightTick />
+                  <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
+                    Aplicación para android y windows de regalo.
+                  </p>
+                </div>
+                <p
+                  className=" ff_inter fs_6sm fw-medium lh_160 text-white opacity_08"
+                  data-aos="fade-down"
+                  data-aos-easing="linear"
+                  data-aos-duration="1500"
+                >
+                  Te reintegramos todo lo invertido en fichas en la moneda que
+                  elijas.
                 </p>
               </div>
-              <div
-                className=" curser_pointer d-flex gap-2 pb-2 mb-1"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <RightTick />
-                <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
-                  Versión PC y móvil
-                </p>
-              </div>
-              <div
-                className=" curser_pointer d-flex gap-2 pb-2 mb-1"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <RightTick />
-                <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
-                  Control de RTP (controlás qué porcentaje pagar)
-                </p>
-              </div>
-              <div
-                className=" curser_pointer d-flex gap-2 pb-2 mb-1"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <RightTick />
-                <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
-                  Bonos editables, happy hours, Jackpots, códigos promocionales.
-                </p>
-              </div>
-              <div
-                className=" curser_pointer d-flex gap-2 pb-4"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                <RightTick />
-                <p className=" ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white mb-0">
-                  Aplicación para android y windows de regalo.
-                </p>
-              </div>
-              <p
-                className=" ff_inter fs_6sm fw-medium lh_160 text-white opacity_08"
-                data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500"
-              >
-                Te reintegramos todo lo invertido en fichas en la moneda que
-                elijas.
-              </p>
             </Col>
           </Row>
         </Container>
-        <Container className=" d-flex justify-content-center">
+        <Container className="d-flex justify-content-center">
           <div className="Platforma_box w-100 d-flex justify-content-center px-4 px-lg-0 relative_img">
             <img
               src={PlatformaRight}
@@ -132,9 +138,9 @@ const Jackpot = () => {
             </h2>
           </div>
         </Container>
-        <Container className=" py_vivo position-relative z-1">
+        <Container className="py_vivo">
           <h2
-            className="pb-5 mb-sm-4 mb-0 text-white text-center ff_Anton fs_8xl fw-normal lh_120"
+            className="pb-5 mb-sm-2 mb-0 position-relative z-1 text-white text-center ff_Anton fs_8xl fw-normal lh_120"
             data-aos="zoom-in"
           >
             Juegos en vivo

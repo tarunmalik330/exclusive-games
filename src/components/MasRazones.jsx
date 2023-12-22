@@ -60,7 +60,7 @@ const MasRazones = () => {
                   </div>
                 </div>
               </div>
-              <div class="my_box curser_pointer" data-aos="fade-down">
+              <div class="my_box curser_pointer my-4" data-aos="fade-down">
                 <div class="box_content d-flex">
                   <ClientesIcon />
                   <div>
@@ -107,8 +107,9 @@ const MasRazones = () => {
             <Row className="align-items-center justify-content-center">
               <Col
                 lg="6"
-                className="px-4 d-flex justify-content-center justify-content-lg-start"
+                className="px-4 d-flex justify-content-center justify-content-lg-start position-relative"
               >
+                <div className="silver_ellips"></div>
                 <img
                   src={SilverImg}
                   alt="SilverImg"
@@ -282,18 +283,15 @@ const MasRazones = () => {
                     className="d-flex align-items-center justify-content-center pt-5"
                     data-aos="fade-up"
                   >
-                    <div className="position-relative">
+                    <div className="position-relative gradient_btn">
                       <img
                         src={BtnAftetGradient}
                         alt="BtnAftetGradient"
                         className=" position-absolute empezar_btn"
                       />
-                      <a
-                        className=" button ff_inter fs_6sm fw-bold lh_160 text_black"
-                        href=""
-                      >
+                      <button className=" button ff_inter fs_6sm fw-bold lh_160 text_black">
                         Aprende más
-                      </a>
+                      </button>
                     </div>
                   </div>
                 </div>
@@ -365,7 +363,8 @@ const MasRazones = () => {
                   </button>
                 </div>
               </Col>
-              <Col lg="6" className="col-11 pt-5 pt-lg-0">
+              <Col lg="6" className="col-11 pt-5 pt-lg-0 position-relative">
+                <div className="silver_ellips1"></div>
                 <img
                   src={PlatinumImg}
                   alt="PlatinumImg"
@@ -756,18 +755,18 @@ const MasRazones = () => {
               data-aos-easing="linear"
               data-aos-duration="1500"
             >
-              <div className="position-relative">
+              <div className="position-relative gradient_btn">
                 <img
                   src={BtnAftetGradient}
                   alt="BtnAftetGradient"
                   className=" position-absolute empezar_btn"
                 />
-                <a
+                <button
                   className=" button ff_inter fs_6sm fw-bold lh_160 text_black"
                   href=""
                 >
                   Leer más
-                </a>
+                </button>
               </div>
             </div>
           </div>

@@ -29,18 +29,15 @@ const Elegirnos = () => {
                 empezás a ganar ya! Creamos tu plataforma en solo 2 semanas.
               </p>
               <div className="pt-4" data-aos="zoom-in-right">
-                <div className=" position-relative">
+                <div className="gradient_btn position-relative">
                   <img
                     src={BtnAftetGradient}
                     alt="BtnAftetGradient"
                     className=" position-absolute empezar_btn"
                   />
-                  <a
-                    className=" button ff_inter fs_6sm fw-bold lh_160 text_black"
-                    href=""
-                  >
+                  <button className=" button ff_inter fs_6sm fw-bold lh_160 text_black">
                     Aprende más
-                  </a>
+                  </button>
                 </div>
               </div>
             </Col>
