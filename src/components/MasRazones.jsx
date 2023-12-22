@@ -38,7 +38,7 @@ const MasRazones = () => {
               <img
                 src={SevenImg}
                 alt="SevenImg"
-                className=" w-100 br_16 me-3 img_hover object_cover h-100"
+                className=" w-100 br_16 me-3 mw_558 img_hover object_cover h-100"
               />
             </Col>
             <Col lg="6" className=" pt-5 pt-lg-0">
@@ -48,42 +48,48 @@ const MasRazones = () => {
               >
                 Más razones para elegirnos
               </h2>
-              <div class="my_box curser_pointer" data-aos="fade-down">
-                <div class="d-flex box_content">
-                  <PáginasIcon />
-                  <div>
-                    <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
-                      200
-                    </p>
-                    <p className=" ff_inter text-white fs_6sm fw-medium lh_160">
-                      Páginas creadas
-                    </p>
+              <div data-aos="fade-down">
+                <div class="my_box curser_pointer">
+                  <div class="d-flex box_content">
+                    <PáginasIcon />
+                    <div>
+                      <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
+                        200
+                      </p>
+                      <p className=" ff_inter text-white fs_6sm fw-medium lh_160">
+                        Páginas creadas
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="my_box curser_pointer my-4" data-aos="fade-down">
-                <div class="box_content d-flex">
-                  <ClientesIcon />
-                  <div>
-                    <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
-                      98%
-                    </p>
-                    <p className=" ff_inter text-white fs_6sm fw-medium lh_160">
-                      Clientes Satisfechas
-                    </p>
+              <div data-aos="fade-down">
+                <div class="my_box curser_pointer my-4">
+                  <div class="box_content d-flex">
+                    <ClientesIcon />
+                    <div>
+                      <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
+                        98%
+                      </p>
+                      <p className=" ff_inter text-white fs_6sm fw-medium lh_160">
+                        Clientes Satisfechas
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="my_box curser_pointer" data-aos="fade-down">
-                <div class="box_content d-flex">
-                  <DivisasIcon />
-                  <div>
-                    <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
-                      200
-                    </p>
-                    <p className=" ff_inter text-white fs_6sm fw-medium lh_160">
-                      Divisas Disponibles
-                    </p>
+              <div data-aos="fade-down">
+                <div class="my_box curser_pointer">
+                  <div class="box_content d-flex">
+                    <DivisasIcon />
+                    <div>
+                      <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
+                        200
+                      </p>
+                      <p className=" ff_inter text-white fs_6sm fw-medium lh_160">
+                        Divisas Disponibles
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
