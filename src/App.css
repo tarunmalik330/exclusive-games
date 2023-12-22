@@ -226,6 +226,10 @@ body {
   max-width: 210px;
 }
 
+.mw_650 {
+  max-width: 650px;
+}
+
 .acceso_btn {
   padding: 16px 46px;
   border: 1px solid white;
@@ -454,6 +458,12 @@ body {
   opacity: 0.5;
   background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
   filter: blur(179.9499969482422px);
+}
+
+.shadow_img {
+  background-blend-mode: multiply !important;
+  mix-blend-mode: multiply !important;
+  bottom: -30px !important;
 }
 
 .Razones_ellips1 {

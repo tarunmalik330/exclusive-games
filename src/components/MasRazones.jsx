@@ -20,6 +20,7 @@ import HeartCard from "../assets/images/png/HeartCard.png";
 import DiamondCard from "../assets/images/png/DiamondCard.png";
 import SoloImg1 from "../assets/images/png/SoloImg1.png";
 import SoloImg2 from "../assets/images/png/SoloImg2.png";
+import ShadowImg from "../assets/images/png/ShadowImg.png";
 
 const MasRazones = () => {
   return (
@@ -110,6 +111,11 @@ const MasRazones = () => {
                 className="px-4 d-flex justify-content-center justify-content-lg-start position-relative"
               >
                 <div className="silver_ellips"></div>
+                <img
+                  src={ShadowImg}
+                  alt="ShadowImg"
+                  className=" position-absolute mw_650 mt-4 shadow_img"
+                />
                 <img
                   src={SilverImg}
                   alt="SilverImg"
