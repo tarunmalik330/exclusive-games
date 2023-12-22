@@ -49,8 +49,8 @@ const MasRazones = () => {
                 Más razones para elegirnos
               </h2>
               <div data-aos="fade-down">
-                <div class="my_box curser_pointer">
-                  <div class="d-flex box_content">
+                <div className="my_box curser_pointer">
+                  <div className="d-flex box_content">
                     <PáginasIcon />
                     <div>
                       <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
@@ -64,7 +64,7 @@ const MasRazones = () => {
                 </div>
               </div>
               <div data-aos="fade-down">
-                <div class="my_box curser_pointer my-4">
+                <div className="my_box curser_pointer my-4">
                   <div class="box_content d-flex">
                     <ClientesIcon />
                     <div>
@@ -79,8 +79,8 @@ const MasRazones = () => {
                 </div>
               </div>
               <div data-aos="fade-down">
-                <div class="my_box curser_pointer">
-                  <div class="box_content d-flex">
+                <div className="my_box curser_pointer">
+                  <div className="box_content d-flex">
                     <DivisasIcon />
                     <div>
                       <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
@@ -412,7 +412,7 @@ const MasRazones = () => {
                   alt="FreeSpins"
                   className=" rounded-2 w-100"
                 />
-                <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
+                <div className="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
                   <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
@@ -443,7 +443,7 @@ const MasRazones = () => {
                   alt="HappyHours"
                   className=" rounded-2 w-100"
                 />
-                <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
+                <div className="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
                   <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
@@ -474,7 +474,7 @@ const MasRazones = () => {
                   alt="europeanImg"
                   className=" rounded-2 w-100"
                 />
-                <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
+                <div className="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
                   <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
