@@ -522,8 +522,6 @@ body {
 .my_box {
   max-width: 374px !important;
   color: black;
-  /* margin-top: 24px;
-  margin-bottom: 24px; */
   transition: all .3s linear;
 }
 

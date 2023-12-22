@@ -22,35 +22,37 @@ const Nuestra = () => {
               lg="6"
               className=" col-12 d-flex align-items-lg-center align-items-start flex-lg-column flex-column-reverse"
             >
-              <div
-                className=" pt-5 pt-lg-0 overflow-hidden"
-                data-aos="zoom-out-right"
-              >
-                <img
-                  src={PokerImg}
-                  alt="PokerImg"
-                  className=" w-100 mw_538 br_16 img_hover"
-                />
-              </div>
               <div>
-                <h3
-                  className=" ff_Anton fs_8xl lh_120 text-white fw-normal mb-0 pt-4 pt-sm-5 mt-md-2 mt-0 pb-3"
+                <div
+                  className=" pt-5 pt-lg-0 overflow-hidden"
                   data-aos="zoom-out-right"
                 >
-                  Nuestra Visión
-                </h3>
-                <p
-                  className=" ff_inter opacity_08 fs_6sm text-white fw-medium lh_160 mw_444"
-                  data-aos="zoom-out-right"
-                >
-                  Nuestra visión es ser líderes indiscutibles en la industria de
-                  los juegos de azar y llevar nuestra pasión por el
-                  entretenimiento más allá de las fronteras. Imagina un mundo
-                  donde la emoción y la diversión no tengan límites, y ese es el
-                  mundo que queremos crear contigo.
-                </p>
-                <div data-aos="zoom-out-right">
-                  <TextArrow />
+                  <img
+                    src={PokerImg}
+                    alt="PokerImg"
+                    className=" w-100 mw_538 br_16 img_hover"
+                  />
+                </div>
+                <div className="w-100">
+                  <h3
+                    className=" ff_Anton fs_8xl lh_120 text-white fw-normal mb-0 pt-4 pt-sm-5 mt-md-2 mt-0 pb-3"
+                    data-aos="zoom-out-right"
+                  >
+                    Nuestra Visión
+                  </h3>
+                  <p
+                    className=" ff_inter opacity_08 fs_6sm text-white fw-medium lh_160 mw_444"
+                    data-aos="zoom-out-right"
+                  >
+                    Nuestra visión es ser líderes indiscutibles en la industria
+                    de los juegos de azar y llevar nuestra pasión por el
+                    entretenimiento más allá de las fronteras. Imagina un mundo
+                    donde la emoción y la diversión no tengan límites, y ese es
+                    el mundo que queremos crear contigo.
+                  </p>
+                  <div data-aos="zoom-out-right">
+                    <TextArrow />
+                  </div>
                 </div>
               </div>
             </Col>
