@@ -20,9 +20,9 @@ const Nuestra = () => {
           <Row>
             <Col
               lg="6"
-              className=" col-12 d-flex align-items-lg-center align-items-start flex-lg-column flex-column-reverse"
+              className=" col-12 d-flex align-items-lg-center align-items-start"
             >
-              <div>
+              <div className="d-flex flex-column-reverse flex-lg-column">
                 <div
                   className=" pt-5 pt-lg-0 overflow-hidden"
                   data-aos="zoom-out-right"

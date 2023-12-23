@@ -39,7 +39,7 @@ const Artibutos = () => {
                 alt="DottedImg1"
                 className=" position-absolute doted_img1 d-lg-block d-none mw_273 w-100"
               />
-              <div className="d-flex flex-column align-items-center justify-content-center">
+              <div className="d-flex flex-column curser_pointer align-items-center justify-content-center">
                 <InteligenciaSvg />
                 <p className=" text_black ff_Anton fs_md text-center fw-normal lh_130 mb-0 pt-3 pb_10">
                   Inteligencia
@@ -61,7 +61,7 @@ const Artibutos = () => {
                 alt="DottedImg2"
                 className=" position-absolute dotted_Img2 d-lg-block d-none mw_273 w-100"
               />
-              <div className=" d-flex flex-column justify-content-center align-items-center">
+              <div className=" d-flex flex-column curser_pointer justify-content-center align-items-center">
                 <ProactividadSvg />
                 <p className=" text_black ff_Anton fs_md fw-normal lh_130 pt-3 mb-0 pb_10">
                   Proactividad
@@ -78,7 +78,7 @@ const Artibutos = () => {
               className=" pt-4 pt-lg-0 d-flex justify-content-lg-end justify-content-center"
               data-aos="fade-up"
             >
-              <div className=" d-flex justify-content-center align-items-center flex-column">
+              <div className=" d-flex justify-content-center curser_pointer align-items-center flex-column">
                 <InnovacionSvg />
                 <p className=" text_black ff_Anton fs_md fw-normal lh_130 pt-3 pb_10 mb-0">
                   Innovación
