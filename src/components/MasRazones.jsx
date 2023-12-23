@@ -65,7 +65,7 @@ const MasRazones = () => {
               </div>
               <div data-aos="fade-down">
                 <div className="my_box curser_pointer my-4">
-                  <div class="box_content d-flex">
+                  <div className="box_content d-flex">
                     <ClientesIcon />
                     <div>
                       <p className=" ff_Anton fw-normal fs_2lg text-white lh_130 mb-0">
