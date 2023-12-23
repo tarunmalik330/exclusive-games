@@ -153,7 +153,7 @@ const Jackpot = () => {
                   alt="Blackjack"
                   className=" rounded-2 w-100"
                 />
-                <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
+                <div className="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
                   <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
@@ -182,7 +182,7 @@ const Jackpot = () => {
                   alt="Roulette"
                   className=" rounded-2 w-100"
                 />
-                <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
+                <div className="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
                   <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
@@ -211,7 +211,7 @@ const Jackpot = () => {
                   alt="LiveBetting"
                   className=" rounded-2 w-100"
                 />
-                <div class="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
+                <div className="overlay Img_shadow d-flex justify-content-center align-items-center position-absolute top-0 rounded-2">
                   <div className="position-relative btn_white">
                     <img
                       src={BtnAfter}
