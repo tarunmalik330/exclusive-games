@@ -189,7 +189,7 @@ body {
 }
 
 .button {
-  padding: 16px 46px;
+  padding: 13px 46px;
   border-radius: 41px;
   background: var(--linear, linear-gradient(307deg, #51C8EF -13.72%, #7AF57A 102.02%));
   transition: all 0.4s ease 0s;
