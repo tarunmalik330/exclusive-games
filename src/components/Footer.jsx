@@ -127,7 +127,8 @@ const Footer = () => {
                     <li className="mb-2">
                       <a
                         className="ff_inter text-white opacity_08 fw-medium lh_160 fs_6sm text-nowrap nav_line position-relative"
-                        href=""
+                        href="https://mail.google.com/"
+                        target="blank"
                       >
                         {" "}
                         <Mail /> juegosexclusivos@gmail.com
@@ -136,7 +137,7 @@ const Footer = () => {
                     <li className="mb-2">
                       <a
                         className="ff_inter text-white opacity_08 fw-medium lh_160 fs_6sm nav_line position-relative"
-                        href=""
+                        href="tel:9812724115"
                       >
                         <Phone /> (101)342-7873
                       </a>
