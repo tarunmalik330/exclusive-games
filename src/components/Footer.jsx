@@ -16,11 +16,9 @@ const Footer = () => {
         <Container className="custom_container py_footer">
           <Row>
             <Col lg="4">
-              <img
-                src={PageLogo}
-                alt="PageLogo"
-                className=" mw_210 w-100 curser_pointer"
-              />
+              <a href="">
+                <img src={PageLogo} alt="PageLogo" className=" mw_210 w-100" />
+              </a>
               <p className=" mw_369 ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white pt-3 mb-0">
                 En Exclusive Games somos un equipo apasionado de personas
                 dedicadas al desarrollo de multiplataformas para juegos de azar

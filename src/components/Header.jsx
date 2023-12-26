@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <>
       <div className="bg_header min_vh_100 d-flex flex-column">
-        <nav className="bg_nav py_19 position-relative z-3">
+        <nav className="bg_nav py-4 position-relative z-3">
           <Container className="custom_container">
             <div className=" d-flex align-items-center justify-content-between">
               <img
