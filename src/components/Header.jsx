@@ -103,7 +103,7 @@ const Header = () => {
           className="py_header custom_container py-xl-0 flex-grow-1 d-flex flex-column justify-content-center align-items-center"
         >
           <h1
-            className=" text-uppercase fs_2xxl text-white fw-normal ff_Anton lh_120 pb-3 text-center mw_505 mb-0"
+            className=" text-uppercase fs_2xxl text-white fw-normal ff_Anton lh_120 pb-4 text-center mw_505 mb-0"
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
           >

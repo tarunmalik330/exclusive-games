@@ -131,7 +131,7 @@ const MasRazones = () => {
               </Col>
               <Col
                 lg="6"
-                className="col-11 pt-5 pt-lg-0 d-flex align-items-center"
+                className="col-11 pt-5 pt-lg-0 d-flex justify-content-center align-items-center"
               >
                 <div>
                   <h3
