@@ -125,7 +125,7 @@ const MasRazones = () => {
                 <img
                   src={SilverImg}
                   alt="SilverImg"
-                  className=" w-100 mw_548"
+                  className=" w-100 mw_548 ps-4"
                   data-aos="zoom-in-right"
                 />
               </Col>
