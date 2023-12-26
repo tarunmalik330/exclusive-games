@@ -19,7 +19,7 @@ const Jackpot = () => {
         <div className=" mission_leftEllips position-absolute bottom-0 end-0"></div>
         <Container className="py_jackpot custom_container">
           <Row className=" align-items-center justify-content-lg-center justify-content-start">
-            <Col lg="5" className=" col-12 d-flex align-items-start">
+            <Col lg="6" className=" col-12 d-flex align-items-start">
               <div className="overflow-hidden" data-aos="zoom-in-right">
                 <img
                   src={JackpotImg}
