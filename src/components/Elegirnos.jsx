@@ -9,7 +9,7 @@ const Elegirnos = () => {
   return (
     <>
       <div id="PorQuéElegirnos" className="bg_elegirnos position-relative z-1">
-        <Container>
+        <Container className="custom_container">
           <Row>
             <Col lg="6" className=" d-flex flex-column justify-content-center">
               <h2

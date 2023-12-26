@@ -15,8 +15,8 @@ const Header = () => {
   return (
     <>
       <div className="bg_header min_vh_100 d-flex flex-column">
-        <nav className="bg_nav py-4 position-relative z-3">
-          <Container>
+        <nav className="bg_nav py_19 position-relative z-3">
+          <Container className="custom_container">
             <div className=" d-flex align-items-center justify-content-between">
               <img
                 src={Logo}
@@ -100,7 +100,7 @@ const Header = () => {
         </nav>
         <Container
           id="Hogar"
-          className="py_header py-xl-0 flex-grow-1 d-flex flex-column justify-content-center align-items-center"
+          className="py_header custom_container py-xl-0 flex-grow-1 d-flex flex-column justify-content-center align-items-center"
         >
           <h1
             className=" text-uppercase fs_2xxl text-white fw-normal ff_Anton lh_120 pb-3 text-center mw_505 mb-0"
@@ -110,7 +110,7 @@ const Header = () => {
             Exclusive Games. Pasión por ganar
           </h1>
           <p
-            className=" mw_727 ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white text-center mb-0 pb-5"
+            className=" mw_727 ff_inter fs_6sm fw-medium lh_160 opacity_08 text-white text-center mb-0 pb_40"
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
           >

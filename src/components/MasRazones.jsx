@@ -32,13 +32,13 @@ const MasRazones = () => {
         <div className="mission_leftEllips position-absolute Razones_ellips4 d-lg-block d-none"></div>
         <div className="mission_leftEllips position-absolute Razones_ellips5 d-lg-block d-none"></div>
         {/* -----------------------------Más razones --------------------- */}
-        <Container className="py_razenos position-relative z-1">
+        <Container className="custom_container py_razenos position-relative z-1">
           <Row>
             <Col lg="6" className="d-flex justify-content-lg-end">
               <img
                 src={SevenImg}
                 alt="SevenImg"
-                className=" w-100 br_16 me-3 mw_558 img_hover object_cover h-100"
+                className=" w-100 br_16 me-4 mw_558 img_hover object_cover h-100"
               />
             </Col>
             <Col lg="6" className=" pt-5 pt-lg-0">
@@ -97,7 +97,7 @@ const MasRazones = () => {
           </Row>
         </Container>
         {/* -----------------------------Nuestras ofertas------------------------- */}
-        <Container id="Ofertas">
+        <Container className="custom_container" id="Ofertas">
           <h2
             className=" text-white ff_Anton fs_8xl fw-normal lh_120 mb-0 pb-3 text-center"
             data-aos="zoom-in-up"
@@ -105,7 +105,7 @@ const MasRazones = () => {
             Nuestras ofertas
           </h2>
           <p
-            className=" ff_inter fs_6sm fw-medium lh_160 text-white text-center pb-5 mb-2"
+            className=" ff_inter fs_6sm fw-medium lh_160 text-white text-center pb-5 mb-sm-3 mb-0"
             data-aos="zoom-in-up"
           >
             Te ofrecemos las mejores experiencias de juegos para tus clientes.
@@ -129,93 +129,98 @@ const MasRazones = () => {
                   data-aos="zoom-in-right"
                 />
               </Col>
-              <Col lg="6" className="col-11 pt-5 pt-lg-0">
-                <h3
-                  className=" text-white ff_Anton fs_2lg fw-normal lh_130 mb-0 pb-3"
-                  data-aos="zoom-in-up"
-                >
-                  Silver
-                </h3>
-                <p
-                  className=" ff_inter fs_6sm text-white opacity_08 fw-medium lh_160 mw_410 mb-2 pb-4"
-                  data-aos="zoom-in-up"
-                >
-                  Diseño predeterminado, atractivo y fácil de navegar,
-                  tecnología HTLM5.
-                </p>
-                <h2
-                  className=" text-white ff_Anton fw-normal fs_8xl lh_120"
-                  data-aos="zoom-in-up"
-                >
-                  $5000
-                </h2>
-                <div
-                  className=" curser_pointer d-flex gap-2 pb-2 mb-1"
-                  data-aos="zoom-in-up"
-                >
-                  <RightTick />
-                  <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mw_387 mb-0">
-                    Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas,
-                    Cargas manuales
+              <Col
+                lg="6"
+                className="col-11 pt-5 pt-lg-0 d-flex align-items-center"
+              >
+                <div>
+                  <h3
+                    className=" text-white ff_Anton fs_2lg fw-normal lh_130 mb-0 pb-3"
+                    data-aos="zoom-in-up"
+                  >
+                    Silver
+                  </h3>
+                  <p
+                    className=" ff_inter fs_6sm text-white opacity_08 fw-medium lh_160 mw_410 mb-2 pb-4"
+                    data-aos="zoom-in-up"
+                  >
+                    Diseño predeterminado, atractivo y fácil de navegar,
+                    tecnología HTLM5.
                   </p>
-                </div>
-                <div
-                  className=" curser_pointer d-flex gap-2 pb-2 mb-1"
-                  data-aos="zoom-in-up"
-                >
-                  <RightTick />
-                  <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mb-0">
-                    Control de RTP (controlás qué porcentaje pagar)
-                  </p>
-                </div>
-                <div
-                  className=" curser_pointer d-flex gap-2 pb-2 mb-1"
-                  data-aos="zoom-in-up"
-                >
-                  <RightTick />
-                  <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mw_387 mb-0">
-                    Bonos Editables, Happy Hours, Jackpots, Códigos
-                    Promocionales Regalo
-                  </p>
-                </div>
-                <div
-                  className=" curser_pointer d-flex gap-2 pb-2 mb-1"
-                  data-aos="zoom-in-up"
-                >
-                  <RightTick />
-                  <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mw_387 mb-0">
-                    Aplicación para Android y Windows de regalo.
-                  </p>
-                </div>
-                <div
-                  className=" curser_pointer d-flex gap-2 pb-5"
-                  data-aos="zoom-in-up"
-                >
-                  <RightTick />
-                  <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mw_387 mb-0">
-                    Tiempo de creación 2 a 3 semanas
-                  </p>
-                </div>
-                <div
-                  className="position-relative btn_white d-inline"
-                  data-aos="zoom-in-up"
-                >
-                  <img
-                    src={BtnAfter}
-                    alt="BtnAfter"
-                    className="position-absolute comprar_after"
-                  />
-                  <button className=" bg-transparent acceso_btn text-white ff_inter fs_6sm fw-bold lh_160">
-                    Comprar ahora
-                  </button>
+                  <h2
+                    className=" text-white ff_Anton fw-normal fs_8xl lh_120"
+                    data-aos="zoom-in-up"
+                  >
+                    $5000
+                  </h2>
+                  <div
+                    className=" curser_pointer d-flex gap-2 pb-2 mb-1"
+                    data-aos="zoom-in-up"
+                  >
+                    <RightTick />
+                    <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mw_387 mb-0">
+                      Disponibles Payku, Pix, Depósitos en Euros, Criptomonedas,
+                      Cargas manuales
+                    </p>
+                  </div>
+                  <div
+                    className=" curser_pointer d-flex gap-2 pb-2 mb-1"
+                    data-aos="zoom-in-up"
+                  >
+                    <RightTick />
+                    <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mb-0">
+                      Control de RTP (controlás qué porcentaje pagar)
+                    </p>
+                  </div>
+                  <div
+                    className=" curser_pointer d-flex gap-2 pb-2 mb-1"
+                    data-aos="zoom-in-up"
+                  >
+                    <RightTick />
+                    <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mw_387 mb-0">
+                      Bonos Editables, Happy Hours, Jackpots, Códigos
+                      Promocionales Regalo
+                    </p>
+                  </div>
+                  <div
+                    className=" curser_pointer d-flex gap-2 pb-2 mb-1"
+                    data-aos="zoom-in-up"
+                  >
+                    <RightTick />
+                    <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mw_387 mb-0">
+                      Aplicación para Android y Windows de regalo.
+                    </p>
+                  </div>
+                  <div
+                    className=" curser_pointer d-flex gap-2 pb-5"
+                    data-aos="zoom-in-up"
+                  >
+                    <RightTick />
+                    <p className=" text-white fs_6sm opacity_08 fw-medium ff_inter mw_387 mb-0">
+                      Tiempo de creación 2 a 3 semanas
+                    </p>
+                  </div>
+                  <div
+                    className="position-relative btn_white d-inline"
+                    data-aos="zoom-in-up"
+                  >
+                    <img
+                      src={BtnAfter}
+                      alt="BtnAfter"
+                      className="position-absolute comprar_after"
+                    />
+                    <button className=" bg-transparent acceso_btn text-white ff_inter fs_6sm fw-bold lh_160">
+                      Comprar ahora
+                    </button>
+                  </div>
                 </div>
               </Col>
             </Row>
           </div>
         </Container>
         {/* -------------------------------Luxury--------------------------------- */}
-        <Container className="my_64">
-          <div className="silver_box py_luxury px-3 px-sm-0">
+        <Container className="custom_container">
+          <div className="silver_box my_64 py_luxury px-3 px-sm-0">
             <Row>
               <div className="bg_luxury d-flex align-items-center justify-content-center position-relative">
                 <div className="mw_419">
@@ -332,7 +337,7 @@ const MasRazones = () => {
           </div>
         </Container>
         {/* ---------------------------------Platinum------------------------------- */}
-        <Container className="position-relative z-1">
+        <Container className="custom_container position-relative z-1">
           <div className="silver_box py_Platinum ">
             <Row className="justify-content-center align-items-center">
               <Col lg="5" className=" col-11">
@@ -388,7 +393,7 @@ const MasRazones = () => {
           </div>
         </Container>
         {/* ---------------------------Ellos eligieron------------------------ */}
-        <Container className=" py_apostar">
+        <Container className="custom_container py_apostar">
           <h2
             className=" text-white text-center ff_Anton fs_8xl fw-normal lh_120 mb-sm-3 mb-0 pb-sm-5 pb-4"
             data-aos="fade-down"
@@ -510,7 +515,7 @@ const MasRazones = () => {
         </Container>
         {/* ---------------------------Accordion--------------------------- */}
         <div className=" mb_accordion">
-          <Container>
+          <Container className="custom_container">
             <h2
               className=" text-white ff_Anton fs_8xl fw-normal lh_120 text-uppercase text-center pb-sm-5 pb-4 mb-sm-4"
               data-aos="fade-down"
@@ -741,7 +746,7 @@ const MasRazones = () => {
           </Container>
         </div>
         {/* ------------------------propia plataforma--------------------------- */}
-        <Container>
+        <Container className="custom_container">
           <div className="silver_box overflow-hidden py_solobox position-relative relative_img">
             <img
               src={SoloImg1}

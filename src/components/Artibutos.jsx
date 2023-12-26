@@ -20,9 +20,9 @@ const Artibutos = () => {
   return (
     <>
       <div className="Bg_Artibutos position-relative z-1">
-        <Container>
+        <Container className="custom_container">
           <h2
-            className=" ff_Anton text_black fs_8xl fw-normal lh_120 text-center pt_243 mb-0 pb-5 mb-2"
+            className=" ff_Anton text_black fs_8xl fw-normal lh_120 text-center pt_243 mb-0 pb-5 mb-sm-2"
             data-aos="fade-up"
           >
             Nuestros Atributos de Marca
@@ -90,7 +90,7 @@ const Artibutos = () => {
             </Col>
           </Row>
         </Container>
-        <Container id="Tragamonedas" className="py_slots">
+        <Container id="Tragamonedas" className="custom_container py_slots">
           <div className=" d-flex flex-column justify-content-center align-items-center">
             <h2
               className=" text_black text-center fs_8xl fw-normal lh_120 mb-0 pb-3 ff_Anton"
@@ -99,7 +99,7 @@ const Artibutos = () => {
               Slots{" "}
             </h2>
             <p
-              className=" text_black opacity_08 fs_6sm fw-medium lh_160 ff_inter mw_904 mb-2 pb-5 text-center"
+              className=" text_black opacity_08 fs_6sm fw-medium lh_160 ff_inter mw_904 mb-sm-3 mb-0 pb-5 text-center"
               data-aos="zoom-in-up"
             >
               En Exclusive Games, ofrecemos una selección de más de 600 juegos

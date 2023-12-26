@@ -12,11 +12,6 @@ body {
   background-color: #00141B !important;
 }
 
-.custom_container {
-  max-width: 1140px;
-  margin: 0 auto;
-}
-
 .Mas_Razones_img_parent {
   max-width: 558px;
   min-height: 514px;
@@ -201,7 +196,11 @@ body {
 }
 
 .gradient_btn:hover {
-  transform: scale(1.05) !important;
+  filter: drop-shadow(0px 5px 8px #73ee8d);
+}
+
+.gradient_btn:hover img {
+  display: none;
 }
 
 .curser_pointer {
@@ -209,6 +208,15 @@ body {
 }
 
 /* ------------------------header--------------------------- */
+.py_19 {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.pb_40 {
+  padding-bottom: 40px;
+}
+
 .bg_header {
   background-image: url("./assets/images/webp/BgHeader.webp");
   background-position: center;
@@ -353,8 +361,8 @@ body {
 /* -------------------------Artibutos--------------------------- */
 .Bg_Artibutos {
   background-color: white;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .doted_img1 {
@@ -435,19 +443,19 @@ body {
 }
 
 .py_vivo {
-  padding-top: 85px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .py_jackpot {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 /* --------------------------------elegirnos---------------------------------- */
 .bg_elegirnos {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
   background-color: white;
 }
 
@@ -585,8 +593,8 @@ body {
 }
 
 .my_64 {
-  margin-top: 64px;
-  margin-bottom: 64px;
+  margin-top: 64px !important;
+  margin-bottom: 64px !important;
 }
 
 .py_luxury {
@@ -600,28 +608,28 @@ body {
 }
 
 .py_apostar {
-  padding-top: 60px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .green_coin {
-  left: 23%;
+  left: 20%;
   top: 8%;
 }
 
 .diamond_card {
-  left: 17%;
+  left: 11%;
   bottom: 5%;
 }
 
 .heart_card {
   top: 11%;
-  right: 18%;
+  right: 15%;
 }
 
 .dice_img {
   bottom: 11%;
-  right: 26%;
+  right: 20%;
 }
 
 .py_solobox {
@@ -701,8 +709,8 @@ body {
 }
 
 .py_razenos {
-  padding-top: 50px;
-  padding-bottom: 80px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .Footer_Ellips {
@@ -988,6 +996,11 @@ body {
     padding-bottom: 103px;
   }
 
+  .py_vivo {
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+
   .mw_520 {
     max-width: 520px;
   }
@@ -1036,5 +1049,10 @@ body {
 @media (min-width:1200px) {
   .min_vh_100 {
     min-height: 100vh;
+  }
+
+  .custom_container {
+    max-width: 1170px !important;
+    margin: auto !important;
   }
 }

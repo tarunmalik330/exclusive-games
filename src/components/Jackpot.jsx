@@ -17,20 +17,20 @@ const Jackpot = () => {
       <div className="bg_Potenciando position-relative">
         <div className="mission_leftEllips jackpot_ellips position-absolute"></div>
         <div className=" mission_leftEllips position-absolute bottom-0 end-0"></div>
-        <Container className="py_jackpot">
+        <Container className="py_jackpot custom_container">
           <Row className=" align-items-center justify-content-lg-center justify-content-start">
             <Col lg="5" className=" col-12 d-flex align-items-start">
               <div className="overflow-hidden" data-aos="zoom-in-right">
                 <img
                   src={JackpotImg}
                   alt="JackpotImg"
-                  className=" w-100 jackpot_img img_hover pe-lg-3"
+                  className=" w-100 jackpot_img img_hover"
                 />
               </div>
             </Col>
             <Col
               lg="6"
-              className=" col-12 pt-lg-0 pt-4 d-flex flex-column justify-content-center align-items-start"
+              className=" col-12 pt-lg-0 pt-4 d-flex flex-column justify-content-center ps-4"
             >
               <div>
                 <h2
@@ -118,7 +118,7 @@ const Jackpot = () => {
             </Col>
           </Row>
         </Container>
-        <Container className="d-flex justify-content-center">
+        <Container className="d-flex justify-content-center custom_container">
           <div className="Platforma_box w-100 d-flex justify-content-center px-4 px-lg-0 relative_img">
             <img
               src={PlatformaRight}
@@ -138,9 +138,9 @@ const Jackpot = () => {
             </h2>
           </div>
         </Container>
-        <Container className="py_vivo">
+        <Container className="py_vivo custom_container">
           <h2
-            className="pb-5 mb-sm-2 mb-0 position-relative z-1 text-white text-center ff_Anton fs_8xl fw-normal lh_120"
+            className="pb-5 mb-sm-3 mb-0 position-relative z-1 text-white text-center ff_Anton fs_8xl fw-normal lh_120"
             data-aos="zoom-in"
           >
             Juegos en vivo

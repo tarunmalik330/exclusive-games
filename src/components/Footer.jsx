@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="bg-black mt_footer position-relative">
         <div className="Footer_leftEllips Footer_Ellips position-absolute bottom-0 d-lg-block d-none"></div>
         <div className="Footer_rightEllips Footer_Ellips position-absolute bottom-0 d-lg-block d-none"></div>
-        <Container className=" py_footer">
+        <Container className="custom_container py_footer">
           <Row>
             <Col lg="4">
               <img
@@ -39,8 +39,12 @@ const Footer = () => {
             </Col>
             <Col lg="8" className=" mt-5 mt-lg-0">
               <Row>
-                <Col lg="4" sm="6" className="col-12">
-                  <ul>
+                <Col
+                  lg="4"
+                  sm="6"
+                  className="col-12 d-flex align-items-center justify-content-lg-center"
+                >
+                  <ul className="p-0">
                     <li className="text-white ff_inter fw-bold lh_160 fs_6sm mb-0 pb-3">
                       Menú principal
                     </li>
@@ -87,7 +91,7 @@ const Footer = () => {
                   </ul>
                 </Col>
                 <Col lg="4" sm="6" className="col-12">
-                  <ul>
+                  <ul className="p-0">
                     <li className="text-white ff_inter fw-bold lh_160 fs_6sm mb-0 pb-3">
                       Atención al cliente
                     </li>
@@ -118,7 +122,7 @@ const Footer = () => {
                   </ul>
                 </Col>
                 <Col lg="4" sm="6" className="col-12 pt-4 pt-lg-0">
-                  <ul>
+                  <ul className="p-0">
                     <li className="text-white ff_inter fw-bold lh_160 fs_6sm mb-0 pb-3">
                       Ponerse en contacto
                     </li>
@@ -146,7 +150,7 @@ const Footer = () => {
           </Row>
         </Container>
         <div className="border-top border_color"></div>
-        <Container>
+        <Container className="custom_container">
           <p className="py-4 text-center text-white ff_inter fw-medium mb-0 fs_6sm lh_160 opacity_05">
             © Juegos exclusivos - Todos los derechos reservados 2023
           </p>

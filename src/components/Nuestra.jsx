@@ -16,7 +16,7 @@ const Nuestra = () => {
         <div className=" position-absolute mission_leftEllips mission_Ellips"></div>
         <div className=" position-absolute mission_leftEllips mission_RightEllips"></div>
         <div className="mission_centerEllips position-absolute start-50 top-50"></div>
-        <Container className="position-relative z-1">
+        <Container className="position-relative custom_container z-1">
           <Row>
             <Col
               lg="6"
@@ -35,7 +35,7 @@ const Nuestra = () => {
                 </div>
                 <div className="w-100">
                   <h3
-                    className=" ff_Anton fs_8xl lh_120 text-white fw-normal mb-0 pt-4 pt-sm-5 mt-md-2 mt-0 pb-3"
+                    className=" ff_Anton fs_8xl lh_120 text-white fw-normal mb-0 pt-4 pt-sm-5 mt-md-3 mt-0 pb-3"
                     data-aos="zoom-out-right"
                   >
                     Nuestra Visión
@@ -56,7 +56,7 @@ const Nuestra = () => {
                 </div>
               </div>
             </Col>
-            <Col lg="6" className=" col-12 d-flex flex-column">
+            <Col lg="6" className=" align-items-end col-12 d-flex flex-column">
               <div>
                 <div className=" pt-5 pt-lg-0">
                   <h3
@@ -82,7 +82,7 @@ const Nuestra = () => {
                   <img
                     src={Aviator}
                     alt="Aviator"
-                    className=" w-100 mw_538 br_16 pt-5 mt-2 img_hover"
+                    className=" w-100 mw_538 br_16 pt-5 mt-3 img_hover"
                   />
                 </div>
               </div>
